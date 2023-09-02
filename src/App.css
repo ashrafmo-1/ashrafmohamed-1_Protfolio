@@ -1,38 +1,305 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    border: none;
+    font-family: 'Fira Code', monospace;
+    user-select: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --BGC: #282C33;
+    --main-color: #FFFFFF;
+    --icons-color: #C778DD;
+    --discription: #ABB2BF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar {
+    width: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar-thumb {
+    background: var(--icons-color);
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+    width: 100%;
+    background-color: var(--BGC);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.containerFromCOmp {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    background-color: var(--BGC);
+}
+
+
+/* start navgatiors bars top and bottm */
+
+.container .navgation {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    transition: .6s;
+}
+
+@media(max-width: 767px) {
+    .container .navgation {
+        display: none;
+    }
+    .barsToggle {
+        display: block;
+        position: relative;
+        font-size: 30px;
+        color: var(--icons-color);
+        background-color: var(--main-color);
+        border-radius: 8px;
+        width: fit-content;
+        padding: 4px 15px;
+        top: 10px;
+        left: 10px;
+        line-height: 0;
+        cursor: pointer;
+        z-index: 999;
+    }
+    .container .navgation.active {
+        display: block;
+    }
+    .container .navgation {
+        background-color: var(--discription);
+        position: absolute;
+        width: 80%;
+        margin: auto;
+        height: 400px;
+        top: 50px;
+        z-index: 99;
+    }
+    .brandIcon {
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .container .navgation .left {
+        display: block;
+    }
+    .container .navgation .left nav {
+        display: block;
+    }
+    .container .navgation .left nav .link span {
+        display: block;
+        margin: 20px auto;
+        width: 90%;
+        text-align: center;
+    }
+    .container .navgation .right .link {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media(min-width: 767px) {
+    .barsToggle {
+        display: none;
+    }
+}
+
+.brandIcon {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: var(--BGC);
+    border-radius: 50%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: transparent;
+}
+
+.left nav {
+    display: flex;
+    gap: 20px;
+    color: var(--main-color);
+}
+
+.left nav .link span {
+    color: var(--main-color);
+    border: 1px solid var(--icons-color);
+    padding: 6px 10px;
+    border-radius: 3px;
+    background-color: var(--BGC);
+    height: 100%;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+}
+
+.right span {
+    color: var(--main-color);
+    border: 1px solid var(--icons-color);
+    padding: 6px 10px;
+    border-radius: 3px;
+    background-color: var(--BGC);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    background-color: var(--BGC);
+    font-size: 20px;
+}
+
+.social .socialLink {
+    color: var(--main-color);
+    border: .6px solid var(--icons-color);
+    padding: 5px 0;
+    margin: 9px;
+    border-radius: 3px;
+    background-color: var(--BGC);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s;
+    font-size: 21px;
+    transition: .6s;
+}
+
+.social .socialLink:hover {
+    background-color: var(--icons-color);
+    color: var(--main-color);
+}
+
+
+/* end navgatiors bars top and bottm */
+
+
+/* start header */
+
+.homeContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+
+@media(max-width: 767px) {
+    .homeContent {
+        display: block;
+        text-align: center;
+    }
+    .textContent {
+        position: relative;
+        z-index: 99;
+        margin-bottom: 20px;
+    }
+}
+
+.homeTitle {
+    color: var(--main-color);
+}
+
+.jopTitle {
+    color: var(--icons-color);
+    font-size: 30px;
+    font-family: bold;
+}
+
+.description {
+    color: var(--discription);
+    font-size: 17px;
+    margin: 10px 0 50px 0;
+}
+
+.cvBTN {
+    color: var(--main-color);
+    border: 1px solid var(--icons-color);
+    padding: 6px 10px;
+    border-radius: 3px;
+    background-color: var(--BGC);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.portfolioImage {
+    width: 400px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 5;
+}
+
+@media(max-width: 550px) {
+    .portfolioImage {
+        width: 300px;
+    }
+}
+
+
+/* end header */
+
+
+/* start skills */
+
+.mainHeader {
+    color: var(--main-color);
+    font-size: 40px;
+    position: relative;
+}
+
+.mainHeader::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    color: var(--icons-color);
+    background-color: var(--icons-color);
+    transition: .6s;
+}
+
+.mainHeader:hover.mainHeader::after {
+    width: 200px;
+}
+
+.skillsContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+.skillsContent .box {
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px 0;
+    background-color: var(--BGC);
+    color: var(--main-color);
+}
+
+.skillsContent .box:hover {
+    box-shadow: none;
 }
