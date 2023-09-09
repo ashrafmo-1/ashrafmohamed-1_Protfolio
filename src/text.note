@@ -1,0 +1,23 @@
+          <button>
+            <a
+              href="../SVGS/inside-api-product-mindset.pdf" download={"lala"} className="cvBTN">
+              download cv
+            </a>
+          </button>
+
+
+
+
+
+
+
+
+
+                          <div className="textContent">
+                            <h1 className="homeTitle"> my name: ashraf - mohamed, </h1>
+                            <span className="jopTitle">> front - end developer</span>
+                            <p className="description">
+                              i am make crafts responsive websites where technologies meet
+                              creativity
+                            </p>
+                          </div>
