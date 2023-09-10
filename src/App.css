@@ -8,7 +8,7 @@
     list-style: none;
     border: none;
     font-family: 'Fira Code', monospace;
-    user-select: none;
+    /*user-select: none;*/
 }
 
 :root {

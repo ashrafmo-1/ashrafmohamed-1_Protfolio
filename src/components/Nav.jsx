@@ -12,7 +12,7 @@ function Nav() {
           <nav> <Link to={"/"} className="link">
               <span> home </span>
             </Link>
-            <Link className="link">
+            <Link className="link" to={'/Contact'}>
               <span> contact me </span>
             </Link>
             <DarkMood />
@@ -20,12 +20,7 @@ function Nav() {
         </div>
       </div>
       <h2
-        className="barsToggle"
-        onClick={() => {
-          document.querySelector(".navgation").classList.toggle("active");
-        }}
-      >
-
+        className="barsToggle" onClick={() => {document.querySelector(".navgation").classList.toggle("active") }}>
         <FaBars />
       </h2>
     </div>

@@ -1,4 +1,3 @@
-import myImage from "../assets/image/photograph.jpg";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import BioAndInfo from "../components/home/Bio&information";
