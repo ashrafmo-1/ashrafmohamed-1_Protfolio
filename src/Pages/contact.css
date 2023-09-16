@@ -1,0 +1,131 @@
+:root {
+    .dark {
+        --BGC: #282C33;
+        --main-color: #FFFFFF;
+        --icons-color: #C778DD;
+        --discription: #ABB2BF;
+    }
+    .light {
+        --BGC: #ffffff;
+        --main-color: #1b1b1b;
+        --icons-color: #C778DD;
+        --discription: #666;
+    }
+}
+
+.contact{
+    margin-top: 40px;
+}
+
+.all-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    min-height: calc(100vh - 147px);
+}
+@media(max-width: 900px) {
+    .all-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.headerSec{
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+form{
+    width: 500px;
+}
+
+@media(max-width: 780px) {
+    form{
+        width: 350px;
+    }
+}
+
+@media(max-width: 400px) {
+    form {
+        width: 250px;
+    }
+}
+
+.name-sec,
+.mail-sec,
+.proj-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-top: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid var(--icons-color);
+    font-size: 22px;
+    color: var(--main-color);
+    font-weight: 600;
+    background: none;
+    text-transform: lowercase;
+}
+
+textarea{
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid var(--icons-color);
+    font-size: 22px;
+    color: var(--main-color);
+    font-weight: 600;
+    background: rgba(238, 238, 238, 0.19);
+    text-transform: lowercase;
+}
+
+.btnSent{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--icons-color);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-color);
+    background-color: var(--BGC);
+    cursor: pointer;
+    box-shadow: 0 0 10px #000000;
+    transition: 0.5s;
+}
+
+.talk {
+    margin: 50px 0;
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .social{
+            font-size: 22px;
+            color: var(--main-color);
+            .btn{
+                background: none;
+                border: 1px solid var(--icons-color);
+                padding: 0.2rem 1rem;
+                color: var(--main-color);
+                font-size: 20px;
+                border-radius: 3px;
+                cursor: pointer;
+                width: 200px;
+            }
+            .btn:hover{
+                background-color: var(--icons-color);
+            }
+        }
+    }
+}

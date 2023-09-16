@@ -1,6 +1,9 @@
 const Footer = () => {
     return (
-        <h4>make my love 💖</h4>
+        <div className={'footer'}>
+            <p>ashraf mohamed</p>
+            <p>made by love 💖😌</p>
+        </div>
     )
 }
 

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import brandIcon from "../assets/image/cvIcon.png";
-import { FaBars } from "react-icons/fa6";
 import DarkMood from "./MoodCanger/DarkMood";
 
 function Nav() {
@@ -8,7 +7,7 @@ function Nav() {
     <div className="container">
       <div className="navgation">
         <div className="left">
-          <img className="brandIcon" src={brandIcon} alt="brandIcon" />
+          <h6 className={'nameSite'}><span>AS</span>hraf</h6>
           <nav> <Link to={"/"} className="link">
               <span> home </span>
             </Link>
@@ -19,10 +18,6 @@ function Nav() {
           </nav>
         </div>
       </div>
-      <h2
-        className="barsToggle" onClick={() => {document.querySelector(".navgation").classList.toggle("active") }}>
-        <FaBars />
-      </h2>
     </div>
   );
 }

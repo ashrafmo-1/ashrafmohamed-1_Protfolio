@@ -19,67 +19,62 @@ export default function Projects() {
             <h3 style={{marginBottom: '10px'}} className={'project-title'}> home design </h3>
             <div className="btnsInfo">
               <button> src code </button>
-              <button onClick={() => {
-                Swal.fire( 'home design page', 'make by html css only','question' ) }}> information </button>
               <button> open site </button>
             </div>
           </div>
           <div className="box">
             <img className="projectImage" src={projTHree} alt="done" />
-            <h3 style={{marginBottom: '10px'}} className={'project-title'}> calculater </h3>
+            <h3 style={{marginBottom: '10px'}} className={'project-title'}> information team </h3>
             <div className="btnsInfo">
               <button> src code </button>
-              <button onClick={() => {
-                Swal.fire( 'home design page', 'make by html css only','question' ) }}> information </button>
               <button> open site </button>
             </div>
           </div>
           <div className="box">
             <img className="projectImage" src={projWeather} alt="done" />
-            <h3> calculater </h3>
+            <h3 style={{marginBottom: '10px'}} className={'project-title'}> weather </h3>
             <div className="btnsInfo">
-              <button> src code </button> <button> information </button>
+              <button> src code </button>
               <button> open site </button>
             </div>
           </div>
           <div className="box">
             <img className="projectImage" src={projsearch} alt="done" />
-            <h3> calculater </h3>
+            <h3 style={{marginBottom: '10px'}} className={'project-title'}> search </h3>
             <div className="btnsInfo">
-              <button> src code </button> <button> information </button>
+              <button> src code </button>
               <button> open site </button>
             </div>
           </div>
           <div className="box">
             <img className="projectImage" src={pagecustomizer} alt="" />
-            <h3> calculater </h3>
+            <h3 style={{marginBottom: '10px'}} className={'project-title'}> dynamic changing </h3>
             <div className="btnsInfo">
-              <button> src code </button> <button> information </button>
+              <button> src code </button>
               <button> open site </button>
             </div>
           </div>
           <div className="box">
             <img className="projectImage" src={ecommerce} alt="" />
-            <h3> calculater </h3>
+            <h3 style={{marginBottom: '10px'}} className={'project-title'}> e-commerce </h3>
             <div className="btnsInfo">
-              <button> src code </button> <button> information </button>
+              <button> src code </button>
               <button> open site </button>
             </div>
           </div>
           <div className="box">
             <img className="projectImage" src={projCalc} alt="" />
-            <h3> calculater </h3>
+            <h3 style={{marginBottom: '10px'}} className={'project-title'}> calculater </h3>
             <div className="btnsInfo">
-              <button> src code </button> <button> information </button>
+              <button> src code </button>
               <button> open site </button>
             </div>
           </div>
           <div className="box">
             <img className="projectImage" src={education} alt="" />
-            <h3> calculater </h3>
+            <h3 style={{marginBottom: '10px'}} className={'project-title'}> education programming </h3>
             <div className="btnsInfo">
               <button> src code </button>
-              <button onClick={() => {}}> information </button>
               <button> open site </button>
             </div>
           </div>

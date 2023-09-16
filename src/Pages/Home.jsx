@@ -9,11 +9,8 @@ export default function Home() {
       <>
     <div className="containerFromCOmp" style={{ minHeight: "calc(100vh)" }}>
       <div className="homeContent">
-        {/* Bio And Information */}
           <BioAndInfo />
-        {/* Information and social */}
           <InfoAndSocila />
-        {/* information work */}
           <WorkInfo />
       </div>
     </div>
