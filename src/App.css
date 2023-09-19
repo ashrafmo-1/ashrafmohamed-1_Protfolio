@@ -123,9 +123,10 @@
 /* start header */
 .homeContent {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-top: 100px;
+    position: relative;
+    transform: translateY(25%);
 
     /* information photo and social links */
     .informationAndSocial{
@@ -177,12 +178,13 @@
 
 @media(max-width: 1050px) {
     .homeContent {
+        transform: translateY(40%);
         .informationAndSocial{
             :nth-child(2){
+                font-size: 1rem;
+                margin-bottom: 10px;
+            }:nth-child(3){
                  font-size: 1rem;
-                 margin-bottom: 10px;
-             }:nth-child(3){
-                  font-size: 1rem;
              }
         }
         .BioAndinfo {
@@ -192,7 +194,7 @@
                 }:nth-child(2), :nth-child(3), :nth-child(4) {
                      font-size: 14px;
                      width: 150px;
-                }
+                 }
             }
         }
         .workinfo{
@@ -202,7 +204,7 @@
                     font-size: 18px;
                     width: 100px;
                 }:nth-child(2){
-                    font-size: 14px;
+                     font-size: 14px;
                  }
             }
         }
@@ -211,6 +213,8 @@
 
 @media(max-width:500px) {
     .homeContent {
+        transform: translateY(5%);
+        padding-bottom: 40px;
         display: grid;
         justify-content: center;
         margin-bottom: 30px;
@@ -241,7 +245,7 @@
                     width: 250px;
                 }:nth-child(2){
                      font-size: 22px;
-                }
+                 }
             }
         }
     }
@@ -249,7 +253,9 @@
 
 .portfolioImage {
     width: 300px;
+    height: 300px;
     border-radius: 3%;
+    margin-top: 30px;
     position: relative;
     left: 50%;
     top: 50%;
@@ -260,12 +266,14 @@
 @media(max-width: 1050px) {
     .portfolioImage {
         width: 250px;
+        height: 250px;
     }
 }
 
 @media(max-width: 831px) {
     .portfolioImage {
         width: 180px;
+        height: 180px;
         display: block;
     }
 }

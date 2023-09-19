@@ -1,6 +1,6 @@
 const WorkInfo = () => {
     return(
-        <div className={'workinfo'}>
+        <div className={'workinfo'} style={{zIndex: '99'}}>
             <div className={'experiences'}>
                 <h3>years of experiences</h3>
                 <h4>+1</h4>

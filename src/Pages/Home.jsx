@@ -8,6 +8,7 @@ export default function Home() {
   return (
       <>
     <div className="containerFromCOmp" style={{ minHeight: "calc(100vh)" }}>
+        <div className={'bgc'} style={{width: '40%', minHeight: "calc(100vh)", position: 'absolute', zIndex: '0', background: '#011603', top: '0', right: '0'}}></div>
       <div className="homeContent">
           <BioAndInfo />
           <InfoAndSocila />
