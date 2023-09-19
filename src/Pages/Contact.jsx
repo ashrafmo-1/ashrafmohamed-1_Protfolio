@@ -15,7 +15,7 @@ export const Contact = () => {
     };
 
     return (
-        <div>
+        <div style={{minHeight:'calc(100vh - 83px)'}}>
             <div className="contact .container">
                 <h1 className='mainHeader' style={{ textAlign: 'center' }}>contact me</h1>
                 <div className='containerFromCOmp'>
@@ -39,13 +39,30 @@ export const Contact = () => {
                         <div className={'talk'}>
                             <h3 className={'headerSec'}>talk to my</h3>
                             <div className="contacts">
-                                <a className={'social'} href={'https://www.facebook.com/ASHRAFMoOoHAMED'}>> <button className={'btn'}> facebook </button></a>
-                                <a className={'social'} href={'mailto:ashrafmohamed1176@gmail.com'}>> <button className={'btn'}>email</button> </a>
-                                <a className={'social'} href={'/'}>> <button className={'btn'}>whatsApp</button></a>
-                                <a className={'social'} href={'https://github.com/ashrafmo-1'}>> <button className={'btn'}>github</button></a>
-                                <a className={'social'} href={'/'}>> <button className={'btn'}>discord</button></a>
-                                <a className={'social'} href={'https://www.linkedin.com/in/ashraf-mohamed-b931a7236'}>> <button className={'btn'}>linkedIn</button></a>
-                                <a className={'social'} href={'https://www.linkedin.com/in/ashraf-mohamed-b931a7236'}>> <button className={'btn'}> cv </button></a>
+                                <a className={'social'} href={'https://www.facebook.com/ASHRAFMoOoHAMED'}>
+                                    > <button className={'btn'}> facebook </button>
+                                </a>
+
+                                <a className={'social'} href={'mailto:ashrafmohamed1176@gmail.com'}>
+                                    > <button className={'btn'}>email</button>
+                                </a>
+
+                                <a className={'social'} href={'https://api.whatsapp.com/send/?phone=%2B201007481557&text&type=phone_number&app_absent=0'}>
+                                    > <button className={'btn'}>whatsApp</button>
+                                </a>
+
+                                <a className={'social'} href={'https://github.com/ashrafmo-1'}>
+                                    > <button className={'btn'}>github</button>
+                                </a>
+
+                                <a className={'social'} href={'/'}>
+                                    > <button className={'btn'}>discord</button>
+                                </a>
+
+                                <a className={'social'} href={'https://www.linkedin.com/in/ashraf-mohamed-b931a7236'}>
+                                    > <button className={'btn'}>linkedIn</button>
+                                </a>
+
                             </div>
                         </div>
                     </div>

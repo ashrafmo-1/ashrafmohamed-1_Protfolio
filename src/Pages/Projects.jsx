@@ -1,84 +1,68 @@
 import projCalc from "../assets/Projects/proj-10.png";
 import projWeather from "../assets/Projects/weather-site.png";
-import projTHree from "../assets/Projects/proj-8.png";
 import projhome from "../assets/Projects/proj-12.png";
 import projsearch from "../assets/Projects/search (1).png";
 import pagecustomizer from "../assets/Projects/page customize.png";
 import ecommerce from "../assets/Projects/e-commerce.png";
 import education from "../assets/Projects/Asheducation.png";
-import Swal from "sweetalert2";
-import React from "react";
+import productManagement from "../assets/Projects/products managment.png"
+import bondi from "../assets/Projects/bondi.png"
+import './projects.css'
+import ProjectsCard from "../components/ProjectsCard";
+import {FaBootstrap, FaCss3Alt, FaHtml5, FaReact, FaSquareJs} from "react-icons/fa6";
 
 export default function Projects() {
   return(
       <div className="containerFromCOmp" style={{ paddingTop: "40px" }}>
         <h1 className="mainHeader" style={{ textAlign: "center" }}> projects </h1>
-        <div className="ProjectContent">
-          <div className="box">
-            <img className="projectImage" src={projhome} alt="done" />
-            <h3 style={{marginBottom: '10px'}} className={'project-title'}> home design </h3>
-            <div className="btnsInfo">
-              <button> src code </button>
-              <button> open site </button>
-            </div>
+          <div className="ProjectContent">
+
+            <ProjectsCard img={education} title={'education'} HTMlicon={<FaHtml5 />} cssicon={<FaCss3Alt />}
+                src={'https://github.com/ashrafmo-1/ASH-EDUCATION'}
+                live={'https://ashrafmo-1.github.io/ASH-EDUCATION/'}
+            />
+
+            <ProjectsCard img={ecommerce} title={'ecommerce'} reactIcon={<FaReact/>} cssicon={<FaCss3Alt />} bs={<FaBootstrap />} jsicon={<FaSquareJs />}
+                src='https://github.com/ashrafmo-1/happy-shoping'
+                live='https://happy-shoping-1.web.app/'
+            />
+
+            <ProjectsCard img={projsearch} title={'search'} HTMlicon={<FaHtml5 />} cssicon={<FaCss3Alt />}
+                src={'https://github.com/ashrafmo-1/search'}
+                live=''
+            />
+
+            <ProjectsCard img={pagecustomizer} title={'shape is adjustable'} HTMlicon={<FaHtml5 />} cssicon={<FaCss3Alt />} jsicon={<FaSquareJs />}
+                src={'https://github.com/ashrafmo-1/special-webSite-full-responsive'}
+                live={'https://ashrafmo-1.github.io/special-webSite-full-responsive/'}
+            />
+
+              <ProjectsCard img={projCalc} title={'calculator'} HTMlicon={<FaHtml5 />} cssicon={<FaCss3Alt />} jsicon={<FaSquareJs />}
+                src={'https://github.com/ashrafmo-1/calculator'}
+                live={'https://ashrafmo-1.github.io/calculator/'}
+            />
+
+              <ProjectsCard img={projWeather} title={'weather'} HTMlicon={<FaHtml5 />} cssicon={<FaCss3Alt />} jsicon={<FaSquareJs />}
+                src={'https://github.com/ashrafmo-1/weather'}
+                live={'https://ashrafmo-1.github.io/weather/'}
+            />
+
+              <ProjectsCard img={projhome} title={'home design'} HTMlicon={<FaHtml5 />} cssicon={<FaCss3Alt />}
+                // src={'https://github.com/ashrafmo-1/weather'}
+                // live={'https://ashrafmo-1.github.io/weather/'}
+            />
+
+              <ProjectsCard img={productManagement} title={'home design'} reactIcon={<FaReact/>} cssicon={<FaCss3Alt />} jsicon={<FaSquareJs />}
+                src={'https://github.com/ashrafmo-1/crud-products-app'}
+                live={'https://crud-products-app.firebaseapp.com/'}
+            />
+
+              <ProjectsCard img={bondi} title={'home design'} HTMlicon={<FaHtml5 />} cssicon={<FaCss3Alt />} bs={<FaBootstrap />}
+                src={'https://github.com/ashrafmo-1/bondi-site'}
+                live={'https://ashrafmo-1.github.io/bondi-site/'}
+            />
+
           </div>
-          <div className="box">
-            <img className="projectImage" src={projTHree} alt="done" />
-            <h3 style={{marginBottom: '10px'}} className={'project-title'}> information team </h3>
-            <div className="btnsInfo">
-              <button> src code </button>
-              <button> open site </button>
-            </div>
-          </div>
-          <div className="box">
-            <img className="projectImage" src={projWeather} alt="done" />
-            <h3 style={{marginBottom: '10px'}} className={'project-title'}> weather </h3>
-            <div className="btnsInfo">
-              <button> src code </button>
-              <button> open site </button>
-            </div>
-          </div>
-          <div className="box">
-            <img className="projectImage" src={projsearch} alt="done" />
-            <h3 style={{marginBottom: '10px'}} className={'project-title'}> search </h3>
-            <div className="btnsInfo">
-              <button> src code </button>
-              <button> open site </button>
-            </div>
-          </div>
-          <div className="box">
-            <img className="projectImage" src={pagecustomizer} alt="" />
-            <h3 style={{marginBottom: '10px'}} className={'project-title'}> dynamic changing </h3>
-            <div className="btnsInfo">
-              <button> src code </button>
-              <button> open site </button>
-            </div>
-          </div>
-          <div className="box">
-            <img className="projectImage" src={ecommerce} alt="" />
-            <h3 style={{marginBottom: '10px'}} className={'project-title'}> e-commerce </h3>
-            <div className="btnsInfo">
-              <button> src code </button>
-              <button> open site </button>
-            </div>
-          </div>
-          <div className="box">
-            <img className="projectImage" src={projCalc} alt="" />
-            <h3 style={{marginBottom: '10px'}} className={'project-title'}> calculater </h3>
-            <div className="btnsInfo">
-              <button> src code </button>
-              <button> open site </button>
-            </div>
-          </div>
-          <div className="box">
-            <img className="projectImage" src={education} alt="" />
-            <h3 style={{marginBottom: '10px'}} className={'project-title'}> education programming </h3>
-            <div className="btnsInfo">
-              <button> src code </button>
-              <button> open site </button>
-            </div>
-          </div>
-        </div>
       </div>
-  )
+          )
 }
