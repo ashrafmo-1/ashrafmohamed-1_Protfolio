@@ -14,9 +14,9 @@
 :root {
     .dark {
         --BGC: #111D13 !important;
-        --main-color: #A1CCA5 !important;
         --icons-color: #415D43 !important;
         --discription: #709775 !important;
+        --main-color: #A1CCA5 !important;
     }
 
     .light {
@@ -126,157 +126,102 @@
     justify-content: space-around;
     align-items: center;
     position: relative;
-    transform: translateY(25%);
+    transform: translateY(15%);
 
     /* information photo and social links */
-    .informationAndSocial{
+    .portfolioImage{
+        margin-top: 10px;
         text-align: center;
-
-        .headering {
-            color: var(--main-color);
-        }:nth-child(2){
-             color: var(--main-color);
-             font-size: 2rem;
-             margin-bottom: 20px;
-         }:nth-child(3){
-              color: var(--main-color);
-              font-size: 1.3rem;
-              margin-bottom: 20px;
-         }
     }
-
-    .BioAndinfo {
-        .bio, .contacts, .serv {
-            :nth-child(1){
-                color: var(--main-color);
-                font-size: 22px;
-                margin-bottom: 4px;
-            }:nth-child(2), :nth-child(3), :nth-child(4) {
-                color: var(--discription);
-            }
-        }
-        .contacts, .serv{
-            margin-top: 2.3rem;
-        }
+    .portfolioImage::before {
+        content: '';
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        border-radius: 10px;
+        background-color: var(--icons-color);
+        left: 50%;
+        top: 0;
+        transform: translate(-50%) skew(-14deg, 14deg);
     }
-    .workinfo{
-        .experiences, .projectsDone, .work {
-            text-align: end;
-            :nth-child(1){
-                color: var(--main-color);
-                font-size: 22px;
-                margin-bottom: 4px;
-            }:nth-child(2){
-                color: var(--discription)
-             }
-        }
-        .projectsDone, .work {
-            margin-top: 2.3rem;
+    .portfolioImage img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        text-align: center;
+        position: relative
+    }
+    .header-info{
+        margin-top: 50px;
+        font-weight: bold;
+        color: #eee;
+        font-size: 30px;
+    }
+    @media(max-width: 820px) {
+        .header-info{
+            font-size: 20px;
         }
     }
-}
-
-@media(max-width: 1050px) {
-    .homeContent {
-        transform: translateY(40%);
-        .informationAndSocial{
-            :nth-child(2){
-                font-size: 1rem;
-                margin-bottom: 10px;
-            }:nth-child(3){
-                 font-size: 1rem;
-             }
-        }
-        .BioAndinfo {
-            .bio, .contacts, .serv {
-                :nth-child(1){
-                    font-size: 18px;
-                }:nth-child(2), :nth-child(3), :nth-child(4) {
-                     font-size: 14px;
-                     width: 150px;
-                 }
-            }
-        }
-        .workinfo{
-            .experiences, .projectsDone, .work {
-                text-align: end;
-                :nth-child(1){
-                    font-size: 18px;
-                    width: 100px;
-                }:nth-child(2){
-                     font-size: 14px;
-                 }
-            }
+    @media(max-width: 500px) {
+        .header-info{
+            font-size: 18px;
         }
     }
-}
 
-@media(max-width:500px) {
-    .homeContent {
-        transform: translateY(5%);
-        padding-bottom: 40px;
-        display: grid;
+
+    .header-info span {
+        color:  #12c2e9;
+    }
+    .description {
+        color: #eeeeee;
+        margin-top: 20px;
+        line-height: 1.7;
+    }
+    @media(max-width: 820px) {
+        .description {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+    }
+    @media(max-width: 500px) {
+        .description {
+            font-size: 12px;
+            line-height: 1.1;
+        }
+    }
+    .btns{
+        display: flex;
         justify-content: center;
-        margin-bottom: 30px;
-        .informationAndSocial{
-            order:1;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        .BioAndinfo {
-            order:2;
-            text-align: center;
-            margin-top: 30px;
-            :nth-child(2), :nth-child(3), :nth-child(4) {
-                width: 200px;
-                margin: auto;
-                padding: 10px 0;
-            }
-        }
-        .workinfo{
-            order: 1;
+        gap: 10px;
+    }
+
+    @media(max-width: 500px) {
+        .btns{
             display: flex;
+            justify-content: center;
             flex-direction: column;
-            align-items: center;
-            .experiences, .projectsDone, .work {
-                text-align: center;
-                :nth-child(1){
-                    font-size: 22px;
-                    width: 250px;
-                }:nth-child(2){
-                     font-size: 22px;
-                 }
-            }
+            gap: 10px;
         }
     }
-}
 
-.portfolioImage {
-    width: 300px;
-    height: 300px;
-    border-radius: 3%;
-    margin-top: 30px;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%);
-    z-index: 5;
-}
+    .cv, .linkedIn {
+        background-color: transparent;
+        color: #eeeeee;
+        margin-top: 20px;
+        border: 1px solid var(--icons-color);
+        padding: 3px 50px;
+        font-size: 22px;
+        border-radius: 7px;
+        transition: .6s;
+    }
 
-@media(max-width: 1050px) {
-    .portfolioImage {
-        width: 250px;
-        height: 250px;
+    .cv:hover,
+    .linkedIn.active{
+        background-color: var(--icons-color);
+        border-color: #eeeeee;
     }
 }
 
-@media(max-width: 831px) {
-    .portfolioImage {
-        width: 180px;
-        height: 180px;
-        display: block;
-    }
-}
 
 /* end header */
 
