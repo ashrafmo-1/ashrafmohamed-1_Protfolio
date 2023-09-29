@@ -66,11 +66,11 @@ export default function Projects() {
         <ProjectsCard
           img={projCalc}
           title={"calculator"}
-          HTMlicon={<FaHtml5 />}
+          reactIcon={<FaReact />}
           cssicon={<FaCss3Alt />}
           jsicon={<FaSquareJs />}
-          src={"https://github.com/ashrafmo-1/calculator"}
-          live={"https://ashrafmo-1.github.io/calculator/"}
+          src={"https://github.com/ashrafmo-1/Calculator-react-Js"}
+          live={"https://simple-calculator-11.web.app"}
         />
 
         <ProjectsCard
