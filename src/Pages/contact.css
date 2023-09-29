@@ -124,7 +124,7 @@ textarea{
                 width: 200px;
             }
             .btn:hover{
-                background-color: var(--icons-color);
+                background-color: var(--discription);
             }
         }
     }
