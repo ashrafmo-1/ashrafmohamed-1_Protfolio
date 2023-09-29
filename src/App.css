@@ -28,7 +28,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 4px;
 }
 ::-webkit-scrollbar-thumb {
     background: var(--icons-color);
@@ -193,7 +193,7 @@
 }
 @media(max-width: 767px){
     .homeContent .information {
-        width: 80%;
+        width: 100%;
         padding: 10px 15px;
         height: 70vh;
     }
@@ -251,7 +251,7 @@
 @media(max-width: 767px){
     .homeContent .jop-information {
         height: 70vh;
-        width: 80%;
+        width: 100%;
         margin-bottom: 100px;
     }
 }
