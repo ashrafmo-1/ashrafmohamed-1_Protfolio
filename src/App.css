@@ -40,6 +40,12 @@
     background: var(--BGC);
 }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .turnIcon {
     transform: rotate(90deg);
     position: absolute;
@@ -273,8 +279,16 @@
     align-items: center;
     flex-wrap: wrap;
     font-size: 22px;
-    gap: 10px;
+    gap: 15px;
     margin-top: 20px;
+}
+
+.homeContent .jop-information .Home-skills .box h1{
+    border: 1px solid #eee;
+    padding: 2px 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    gap: 5px;
 }
 
 .Communication {

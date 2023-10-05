@@ -1,5 +1,4 @@
 import Projects from "./Projects";
-import portfolioImage from "../assets/image/cv.jpg";
 import {
   FaBootstrap,
   FaCss3Alt,
@@ -15,105 +14,74 @@ import {
   FaWhatsapp,
 } from "react-icons/fa6";
 import React from "react";
-import { Link } from "react-router-dom";
+import Information from "../components/home/Information";
 
 export default function Home() {
   return (
     <>
       <div className="containerFromCOmp" style={{ minHeight: "calc(100vh)" }}>
         <div className="homeContent">
-          <div className="information">
-            <img className="portfolioImage" src={portfolioImage} />
-            <p className={"my-info"}>
-              <span>name:</span> ashraf mohamed
-            </p>
-            <p className={"my-info"}>
-              <span>age:</span> 21
-            </p>
-            <p className={"my-info"}>
-              <span>jop:</span> front end developer
-            </p>
-            <p className={"my-info"}>
-              <span>Nationality:</span> Egyptian
-            </p>
-            <p className={"my-info"}>
-              <span>Study:</span> Business information systems (BIS)
-            </p>
-            <p className={"my-info"}>
-              <span>Study:</span> Egyptian
-            </p>
-          </div>
+          <Information />
           <div className={"jop-information"}>
             <p className={"title"} style={{ marginBottom: "15px" }}>
               {" "}
-              <span>></span> front end developer <br /> ( Started in 2022 to far
-              )
+              <span>{">"}</span> front end developer <br /> ( Started in 2022 to
+              far )
             </p>
             <p className={"title"}>
               {" "}
-              <span>></span> Study business information systems at DELTA Academy{" "}
-              <br /> ( Started in 2021 to far )
+              <span> {">"} </span> Study business information systems at DELTA
+              Academy <br /> ( Started in 2021 to far )
             </p>
             <p
               className={"title"}
               style={{ paddingLeft: "20px", marginTop: "30px" }}
             >
               {" "}
-              <span className={"turnIcon"}>></span> skills{" "}
+              <span className={"turnIcon"}> {">"} </span> skills{" "}
             </p>
             <section className={"Home-skills"}>
               <div className="box">
-                <h1 style={{ color: "red" }}>
-                  {" "}
-                  <FaHtml5 />{" "}
+                <h1 style={{ color: "red" }} className="flex-center">
+                  <FaHtml5 />
+                  {"html"}
                 </h1>
               </div>
               <div className="box">
-                <h1 style={{ color: "blue" }}>
-                  {" "}
-                  <FaCss3Alt />{" "}
+                <h1 style={{ color: "blue" }} className="flex-center">
+                  <FaCss3Alt /> {"css"}
                 </h1>
               </div>
               <div className="box">
-                <h1 style={{ color: "yellow" }}>
-                  {" "}
-                  <FaJs />{" "}
+                <h1 style={{ color: "yellow" }} className="flex-center">
+                  <FaJs /> {"js"}
                 </h1>
               </div>
               <div className="box">
-                <h1 style={{ color: "blue" }}>
-                  {" "}
-                  <FaReact />{" "}
+                <h1 style={{ color: "blue" }} className="flex-center">
+                  <FaReact />
+                  {"react"}
                 </h1>
               </div>
               <div className="box">
-                <h1 style={{ color: "blue" }}>
-                  {" "}
-                  <FaBootstrap />{" "}
+                <h1 style={{ color: "#6c0ff3" }} className="flex-center">
+                  <FaBootstrap /> {"bootstrap"}
                 </h1>
               </div>
               <div className="box">
-                <h1 style={{ color: "#777" }}>
-                  {" "}
-                  <FaGithub />{" "}
+                <h1 style={{ color: "#777" }} className="flex-center">
+                  <FaGithub /> {" github "}
                 </h1>
               </div>
               <div className="box">
-                <h1 style={{ color: "red" }}>
-                  {" "}
-                  <FaGitAlt />{" "}
+                <h1 style={{ color: "red" }} className="flex-center">
+                  <FaGitAlt /> {"git"}
                 </h1>
               </div>
               <div className="box">
-                <h1 style={{ color: "green" }}>
-                  {" "}
-                  <FaFigma />{" "}
-                </h1>
-              </div>
-              <div className="box">
-                <h1 style={{ color: "#bf4080" }}>
-                  {" "}
-                  <FaSass />{" "}
+                <h1 style={{ color: "green" }} className="flex-center">
+                  <FaFigma />
+                  {"figma"}
                 </h1>
               </div>
             </section>
@@ -126,7 +94,7 @@ export default function Home() {
               }}
             >
               {" "}
-              <span className={"turnIcon"}>></span> Communication{" "}
+              <span className={"turnIcon"}>{">"}</span> Communication{" "}
             </p>
             <div className={"Communication"}>
               <a
