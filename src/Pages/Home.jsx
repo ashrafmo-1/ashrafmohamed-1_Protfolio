@@ -10,11 +10,13 @@ import {
   FaHtml5,
   FaJs,
   FaReact,
-  FaSass,
   FaWhatsapp,
 } from "react-icons/fa6";
+
+import { FcCommandLine } from "react-icons/fc";
 import React from "react";
 import Information from "../components/home/Information";
+import {BiLogoRedux} from "react-icons/bi";
 
 export default function Home() {
   return (
@@ -82,6 +84,18 @@ export default function Home() {
                 <h1 style={{ color: "green" }} className="flex-center">
                   <FaFigma />
                   {"figma"}
+                </h1>
+              </div>
+              <div className="box">
+                <h1 style={{ color: "#764ABC" }} className="flex-center">
+                  <BiLogoRedux />
+                  {"redux"}
+                </h1>
+              </div>
+              <div className="box">
+                <h1 style={{ color: "#999" }} className="flex-center">
+                  <FcCommandLine />
+                  {"command"}
                 </h1>
               </div>
             </section>

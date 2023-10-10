@@ -284,6 +284,10 @@
     margin-top: 20px;
 }
 
+.homeContent .jop-information .Home-skills .box {
+    padding: 0 2px;
+}
+
 .homeContent .jop-information .Home-skills .box h1{
     border: 1px solid #eee;
     padding: 2px 4px;

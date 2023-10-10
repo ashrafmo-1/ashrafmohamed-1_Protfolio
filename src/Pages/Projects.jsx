@@ -1,6 +1,5 @@
 import projCalc from "../assets/Projects/proj-10.png";
 import projWeather from "../assets/Projects/weather-site.png";
-import projhome from "../assets/Projects/proj-12.png";
 import projsearch from "../assets/Projects/search (1).png";
 import pagecustomizer from "../assets/Projects/page customize.png";
 import ecommerce from "../assets/Projects/e-commerce.png";
