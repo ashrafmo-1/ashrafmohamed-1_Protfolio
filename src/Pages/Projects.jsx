@@ -92,15 +92,6 @@ export default function Projects() {
             />
 
             <ProjectsCard
-              img={projhome}
-              title={"home design"}
-              HTMlicon={<FaHtml5 />}
-              cssicon={<FaCss3Alt />}
-              // src={'https://github.com/ashrafmo-1/weather'}
-              // live={'https://ashrafmo-1.github.io/weather/'}
-            />
-
-            <ProjectsCard
               img={productManagement}
               title={"home design"}
               reactIcon={<FaReact />}

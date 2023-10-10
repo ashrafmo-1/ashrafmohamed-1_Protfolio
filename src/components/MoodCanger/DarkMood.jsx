@@ -24,7 +24,18 @@ const DarkMood = () => {
   }, []);
 
   return (
-    <Link className="link" onClick={() => {toggletheme()}}> <span> <FaMoon /> </span> </Link>
+    <Link
+      className="link"
+      onClick={() => {
+        toggletheme();
+      }}
+    >
+      {" "}
+      <span>
+        {" "}
+        <FaMoon />{" "}
+      </span>{" "}
+    </Link>
   );
 };
 
