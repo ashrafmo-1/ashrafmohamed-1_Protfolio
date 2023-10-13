@@ -243,21 +243,14 @@
 }
 
 .homeContent .jop-information {
-    height: 70vh;
     width: 75%;
     background-color: var(--discription);
-    padding: 10px 15px;
+    padding: 30px 15px;
     border-radius: 6px;
 }
 
-@media(max-width: 1080px){
-    .homeContent .jop-information {
-        height: 85vh;
-    }
-}
 @media(max-width: 767px){
     .homeContent .jop-information {
-        height: 70vh;
         width: 100%;
         margin-bottom: 100px;
     }

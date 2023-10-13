@@ -7,7 +7,8 @@
     <list default="true" id="b502fb86-7ffd-43b8-9eaa-c8462717e9ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Projects/proj-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Projects/proj-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase-debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,7 @@
       <workItem from="1695810303382" duration="4232000" />
       <workItem from="1696014916638" duration="1903000" />
       <workItem from="1696022140631" duration="548000" />
+      <workItem from="1696913500697" duration="1385000" />
     </task>
     <servers />
   </component>
@@ -85,8 +87,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Pages/Home.jsx</url>
-          <line>35</line>
-          <option name="timeStamp" value="1" />
+          <line>94</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

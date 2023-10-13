@@ -43,8 +43,8 @@ export default function Projects() {
               cssicon={<FaCss3Alt />}
               bs={<FaBootstrap />}
               jsicon={<FaSquareJs />}
-              src="https://github.com/ashrafmo-1/happy-shoping"
-              live="https://happy-shoping-1.web.app/"
+              src="https://github.com/ashrafmo-1/E-commerce_products-management_react.js"
+              live="https://a-m-productsmanagment.web.app/"
             />
 
             <ProjectsCard
