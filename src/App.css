@@ -9,7 +9,6 @@
     border: none;
     font-family: 'Fira Code', monospace;
     resize: none;
-    user-select: none;
 }
 
 :root {
@@ -247,6 +246,7 @@
     background-color: var(--discription);
     padding: 30px 15px;
     border-radius: 6px;
+    height: 85vh;
 }
 
 @media(max-width: 767px){

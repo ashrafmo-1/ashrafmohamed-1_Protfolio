@@ -9,6 +9,7 @@ import {
   FaGithub,
   FaHtml5,
   FaJs,
+  FaPython,
   FaReact,
   FaWhatsapp,
 } from "react-icons/fa6";
@@ -16,7 +17,9 @@ import {
 import { FcCommandLine } from "react-icons/fc";
 import React from "react";
 import Information from "../components/home/Information";
-import {BiLogoRedux} from "react-icons/bi";
+import { BiLogoRedux } from "react-icons/bi";
+import { SiNextdotjs } from "react-icons/si";
+import { TbBrandDjango } from "react-icons/tb";
 
 export default function Home() {
   return (
@@ -26,12 +29,10 @@ export default function Home() {
           <Information />
           <div className={"jop-information"}>
             <p className={"title"} style={{ marginBottom: "15px" }}>
-              {" "}
               <span>{">"}</span> front end developer <br /> ( Started in 2022 to
               far )
             </p>
             <p className={"title"}>
-              {" "}
               <span> {">"} </span> Study business information systems at DELTA
               Academy <br /> ( Started in 2021 to far )
             </p>
@@ -39,7 +40,6 @@ export default function Home() {
               className={"title"}
               style={{ paddingLeft: "20px", marginTop: "30px" }}
             >
-              {" "}
               <span className={"turnIcon"}> {">"} </span> skills{" "}
             </p>
             <section className={"Home-skills"}>
@@ -101,13 +101,38 @@ export default function Home() {
             </section>
             <p
               className={"title"}
+              style={{ paddingLeft: "20px", marginTop: "30px" }}
+            >
+              <span className={"turnIcon"}> {">"} </span> The skills I will get
+            </p>
+            <section className={"Home-skills"}>
+              <div className="box">
+                <h1 style={{ color: "blue" }} className="flex-center">
+                  <FaPython />
+                  {"python"}
+                </h1>
+              </div>
+              <div className="box">
+                <h1 style={{ color: "#000" }} className="flex-center">
+                  <SiNextdotjs />
+                  {"next"}
+                </h1>
+              </div>
+              <div className="box">
+                <h1 style={{ color: "#fff" }} className="flex-center">
+                  <TbBrandDjango />
+                  {"Django"}
+                </h1>
+              </div>
+            </section>
+            <p
+              className={"title"}
               style={{
                 paddingLeft: "20px",
                 marginTop: "30px",
                 marginBottom: "20px",
               }}
             >
-              {" "}
               <span className={"turnIcon"}>{">"}</span> Communication{" "}
             </p>
             <div className={"Communication"}>
