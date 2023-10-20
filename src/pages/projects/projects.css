@@ -3,16 +3,17 @@
     margin-bottom: 100px;
 }
 .projects .box{
-    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 60px;
+    justify-content: space-between;
+    margin-bottom: 150px;
 }
+
 .projects .projectInformation {
     width: 54%;
 }
-.projects .projectInformation .head-title  {
+
+.projects .projectInformation .head-title {
     color: #9857D3;
     font-family: Poppins;
     font-size: 16px;
@@ -21,59 +22,60 @@
     letter-spacing: 0.32px;
     margin-bottom: 5px;
 }
-.projects .projectInformation .head-title.right  {
+.projects .projectInformation .head-title.right {
     text-align: right;
 }
-.projects .projectInformation .product-name{
+.projects .projectInformation .product-name {
     color: #CCD6F6;
     font-size: 34px;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.68px;
     margin-bottom: 30px;
+    text-align: left;
 }
 .projects .projectInformation .product-name.right{
-text-align: right;
+    text-align: right;
 }
 .projects .projectInformation .Project-desc{
-    width: 100%;
-    height: 100px;
+    width: 70%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 10px;
+    padding: 10px 18px;
     font-size: 14px;
     border-radius: 14px;
     background: url('../../assets/bg-left.png');
+    float: left;
 }
 .projects .projectInformation .Project-desc.right{
     background: url('../../assets/bg-right.png');
+    float: right;
 }
 .projects .projectInformation .project-icons{
     display: flex;
     align-items: center;
 }
-
 .projects .project-img{
     width: 46%;
 }
 .projects .project-img img{
-    width: 568px;
-    height: 354px;
+    width: 468px;
+    height: 254px;
     float: right;
     z-index: 999;
 }
 .projects .project-img .bg-project{
     position: relative;
-    width: 568px;
-    height: 354px;
+    width: 468px;
+    height: 254px;
     z-index: -1;
     border-radius: 10px;
     background: #2B0B3A;
     top: -40px;
     left: -40px;
 }
-
 .projects .project-img .bg-project.right{
     top: -40px;
     left: 40px;

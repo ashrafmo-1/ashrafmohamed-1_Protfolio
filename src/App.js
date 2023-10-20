@@ -2,11 +2,18 @@ import './App.css';
 import my from './assets/image 1.png'
 import figma from './assets/Rectangle 1.png'
 import react from './assets/Rectangle 2.png'
-import js from './assets/Rectangle 6.png'
+import { FaHtml5 } from "react-icons/fa6";
 import css from './assets/Rectangle 7.png'
+import js from './assets/Rectangle 6.png'
 import redux from './assets/Rectangle 8.png'
 import next from './assets/Rectangle 9.png'
-import { FaHtml5 } from "react-icons/fa6";
+import git from './assets/git.svg'
+import cmd from './assets/terminal.svg'
+import githup from './assets/github.svg'
+import bootstarp from './assets/bootstrap.svg'
+import linux from './assets/linux.svg'
+import slack from './assets/slack.svg'
+import notion from './assets/notion.svg'
 import Projects from './pages/projects/Projects';
 function App() {
 
@@ -68,7 +75,28 @@ function App() {
               <img src={redux} alt='' />
             </div>
             <div className='box'>
-              <img src={next} alt='' />
+              <img src={next} className='next' alt='' />
+            </div>
+            <div className='box'>
+              <img src={git} alt='' />
+            </div>
+            <div className='box'>
+              <img src={cmd} alt='' />
+            </div>
+            <div className='box'>
+              <img src={githup} alt='' />
+            </div>
+            <div className='box'>
+              <img src={bootstarp} alt='' />
+            </div>
+            <div className='box'>
+              <img src={linux} alt='' />
+            </div>
+            <div className='box'>
+              <img src={slack} alt='' />
+            </div>
+            <div className='box'>
+              <img src={notion} alt='' />
             </div>
           </div>
         </div>

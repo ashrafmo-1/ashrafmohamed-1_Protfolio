@@ -14,13 +14,11 @@ const Projects = () => {
         <div className='projectsBoxes'>
             <div className='box left'>
                 <div className='projectInformation'>
-                    <p>Featured Project</p>
-                    <h2 className='product-name'>ProjectName</h2>
+                    <p>Featured</p>
+                    <h2 className='product-name'>Ash-education</h2>
                     <p className='Project-desc'>
-                    A web app for visualizing personalized Spotify data. View your
-                    top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track. Create and save new playlists of
-                    recommended tracks based on your existing playlists and more.
+                    Specially designed for beginners because he is familiar with all the fields of technology of this era
+                    Responsive design with all devices
                     </p>
                     <div className='project-icons'>
 
@@ -41,12 +39,10 @@ const Projects = () => {
                 </div>
                 <div className='projectInformation'>
                     <p className='head-title right'>Featured Project</p>
-                    <h2 className='product-name right'>ProjectName</h2>
+                    <h2 className='product-name right'>Bondi bootstarp</h2>
                     <p className='Project-desc right'>
-                    A web app for visualizing personalized Spotify data. View your
-                    top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track. Create and save new playlists of
-                    recommended tracks based on your existing playlists and more.
+                    Designed entirely by the css bootstrap office
+                    Responsive design with all devices
                     </p>
                     <div className='project-icons'>
 
@@ -63,8 +59,7 @@ const Projects = () => {
                     <p className='Project-desc'>
                     A web app for visualizing personalized Spotify data. View your
                     top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track. Create and save new playlists of
-                    recommended tracks based on your existing playlists and more.
+                    information about each track.
                     </p>
                     <div className='project-icons'>
 
@@ -89,8 +84,7 @@ const Projects = () => {
                     <p className='Project-desc right'>
                     A web app for visualizing personalized Spotify data. View your
                     top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track. Create and save new playlists of
-                    recommended tracks based on your existing playlists and more.
+                    information about each track.
                     </p>
                     <div className='project-icons'>
 
@@ -107,8 +101,7 @@ const Projects = () => {
                     <p className='Project-desc'>
                     A web app for visualizing personalized Spotify data. View your
                     top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track. Create and save new playlists of
-                    recommended tracks based on your existing playlists and more.
+                    information about each track.
                     </p>
                     <div className='project-icons'>
 
@@ -133,8 +126,7 @@ const Projects = () => {
                     <p className='Project-desc right'>
                     A web app for visualizing personalized Spotify data. View your
                     top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track. Create and save new playlists of
-                    recommended tracks based on your existing playlists and more.
+                    information about each track.
                     </p>
                     <div className='project-icons'>
 
@@ -151,8 +143,7 @@ const Projects = () => {
                     <p className='Project-desc'>
                     A web app for visualizing personalized Spotify data. View your
                     top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track. Create and save new playlists of
-                    recommended tracks based on your existing playlists and more.
+                    information about each track.
                     </p>
                     <div className='project-icons'>
 
@@ -177,8 +168,7 @@ const Projects = () => {
                     <p className='Project-desc right'>
                     A web app for visualizing personalized Spotify data. View your
                     top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track. Create and save new playlists of
-                    recommended tracks based on your existing playlists and more.
+                    information about each track.
                     </p>
                     <div className='project-icons'>
 
@@ -195,8 +185,7 @@ const Projects = () => {
                     <p className='Project-desc'>
                     A web app for visualizing personalized Spotify data. View your
                     top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track. Create and save new playlists of
-                    recommended tracks based on your existing playlists and more.
+                    information about each track.
                     </p>
                     <div className='project-icons'>
 
