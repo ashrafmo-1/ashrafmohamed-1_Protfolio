@@ -14,7 +14,7 @@ const Projects = () => {
         <div className='projectsBoxes'>
             <div className='box left'>
                 <div className='projectInformation'>
-                    <p class="head-title right">Featured Project</p>
+                    <p class="head-title">Featured Project</p>
                     <h2 className='product-name'>Ash-education</h2>
                     <p className='Project-desc'>
                     Specially designed for beginners because he is familiar with all the fields of technology of this era
@@ -54,7 +54,7 @@ const Projects = () => {
             </div>
             <div className='box left'>
                 <div className='projectInformation'>
-                <p className='head-title right'>Featured Project</p>
+                <p className='head-title'>Featured Project</p>
                     <h2 className='product-name'>e-commerce</h2>
                     <p className='Project-desc'>
                     A web app for visualizing personalized Spotify data. View your
@@ -96,7 +96,7 @@ const Projects = () => {
             </div>
             <div className='box left'>
                 <div className='projectInformation'>
-                <p className='head-title right'>Featured Project</p>
+                <p className='head-title'>Featured Project</p>
                     <h2 className='product-name'>products management</h2>
                     <p className='Project-desc'>
                     A web app for visualizing personalized Spotify data. View your
@@ -138,7 +138,7 @@ const Projects = () => {
             </div>
             <div className='box left'>
                 <div className='projectInformation'>
-                    <p>Featured Project</p>
+                <p className='head-title'>Featured Project</p>
                     <h2 className='product-name'>search bar</h2>
                     <p className='Project-desc'>
                     A web app for visualizing personalized Spotify data. View your

@@ -47,6 +47,11 @@
 .projects .projectInformation .product-name.right{
     text-align: right;
 }
+@media(max-width: 767px) {
+    .projects .projectInformation .product-name {
+        font-size: 24px;
+    }
+}
 @media(max-width:767px) {
     .projects .projectInformation .head-title,
     .projects .projectInformation .product-name.right,
@@ -91,11 +96,10 @@
     width: 46%;
 }
 
-@media(min-width:768px){
+@media(max-width:767px){
     .projects .project-img{
-        width: 100%;
+        width: 80%;
     }
-    
 }
 .projects .project-img img{
     width: 468px;
@@ -112,7 +116,6 @@
 @media(max-width: 940px){
     .projects .project-img img{
         width: 300px;
-        height: 180px;
     }
 }
 @media(max-width:767px){
@@ -122,7 +125,6 @@
             height: 100%;
         }
     }
-
 }
 .projects .project-img .bg-project{
     position: relative;
