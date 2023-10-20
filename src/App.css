@@ -17,6 +17,13 @@ body{
   margin: auto;
 }
 
+@media(max-width:767px) {
+  .Container {
+    width: 95%;
+    margin: auto;
+  }
+}
+
 /* start nav */
 header {
   display: flex;
@@ -208,77 +215,6 @@ nav span:hover{
     font-size: 17px;
   }
 }
-
-
-.skills {
-  margin: 140px 0px;
-}
-.skills p{
-  margin-bottom: 40px;
-}
-
-.skills .skillsTitle {
-  color: #FFF;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 31px;
-  letter-spacing: 0.48px;
-  max-width: 75%;
-  margin: 20px auto;
-  border: 1px solid #eee;
-  padding: 8px 4px;
-  border-radius: 20px;
-}
-@media(max-width: 991px) {
-  .skills .skillsTitle {
-    font-size: 20px;
-    line-height: 22px;
-  }
-}
-@media(max-width: 767px) {
-    .skills .skillsTitle {
-      font-size: 14px;
-      line-height: 18px;
-  }
-}
-
-
-
-.skills .skills-boxes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 75%;
-  margin: auto;
-}
-.skills .skills-boxes .box {
-  width: 54px;
-  height: 54px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(37, 28, 49, 1);
-  border-radius: 50%;
-  margin: 10px;
-}
-.skills .skills-boxes .box.html svg {
-  color: red;
-  width: 25px;
-  height: 25px;
-}
-.skills .skills-boxes .box img {
-  color: red;
-  width: 28px;
-  height: 28px;
-}
-.skills .skills-boxes .box .next {
-  color: red;
-  width: 35px;
-  height: 20px;
-}
-
 
 
 .contact-me {
