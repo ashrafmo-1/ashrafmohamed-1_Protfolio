@@ -1,3 +1,4 @@
+import { FaBarsStaggered } from 'react-icons/fa6';
 import './App.css';
 import my from './assets/image 1.png'
 
@@ -14,11 +15,16 @@ function App() {
       <div className='Container'>
       <header>
         <h1 className='nav-title'><span>AS</span>hraf mohamed</h1>
-        <nav>
+        <nav className='navgation'>
           <span>Home</span>
           <span>About</span>
           <span>call me</span>
         </nav>
+        <div className='toggleBar' onClick={() => 
+        document.querySelector('.navgation').classList.toggle('active')
+        }>
+          <FaBarsStaggered />
+        </div>
       </header>
         <div className='landing'>
           <div className='head-image'><img className='my-image' src={my} alt='' /></div>

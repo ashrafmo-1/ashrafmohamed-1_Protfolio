@@ -1,5 +1,5 @@
 *{
-  margin: 0;padding: 0;box-sizing: border-box;
+  margin: 0;padding: 0;box-sizing: border-box;user-select: none;
 }
 :root{
   --bgc: #11071F;
@@ -34,12 +34,43 @@ header {
   background: #1A0B2E;
   border-radius: 10px;
 }
+
+.nav-title {
+  color: #fff;
+}
+.nav-title span {
+  color: #7127BA;
+}
+
+
 nav{
   display: flex;
   gap: 20px;
   font-size: 16px;
   color: #fff;
 }
+@media(max-width:500px) {
+  nav{
+    position: absolute;
+    top: -190px;
+  }
+  .active{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    background: #1A0B2E;
+    width: 90%;
+    height: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    padding: 20px 15px;
+    border-radius: 15px;
+    transition: .4s;
+  }
+}
+
 nav span {
   cursor: pointer;
   transition: .6s;
@@ -47,11 +78,23 @@ nav span {
 nav span:hover{
   color: #7127BA;
 }
-.nav-title {
+
+.toggleBar {
+  background-color: rgba(37, 28, 49, 1);
   color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  padding: 3px;
+  cursor: pointer;
 }
-.nav-title span {
-  color: #7127BA;
+@media(min-width: 501px) {
+  .toggleBar{
+    display: none;
+  }
 }
 
 /* start landing */
