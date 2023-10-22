@@ -7,7 +7,7 @@ import Skills from './pages/skills/Skills';
 function App() {
 
   window.onload = function() {
-    alert('the site under fix any erroe')
+    alert('the site under fixed')
   }
 
   return (
@@ -55,7 +55,7 @@ function App() {
         </div>
         <footer>
           <p className='footer'>
-          All rights reserved © 2023 to ashraf mohamed
+          All rights reserved ©2023 to ashraf mohamed
           </p>
         </footer>
       </div>

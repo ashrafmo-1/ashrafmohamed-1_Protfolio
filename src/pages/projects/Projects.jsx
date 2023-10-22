@@ -7,6 +7,7 @@ import managmentManagment from '../../assets/Projects/products managment.png'
 import calc from '../../assets/Projects/proj-10.png'
 import weather from '../../assets/Projects/weather-site.png'
 import search from '../../assets/Projects/search (1).png'
+import translator from '../../assets/Projects/translator.png'
 
 const Projects = () => {
   return (
@@ -161,7 +162,7 @@ const Projects = () => {
             <div className='project-img'>
                     <img src={weather} alt=''/>
                     <div className='bg-project right'></div>
-                </div>
+            </div>
                 <div className='projectInformation'>
                     <p className='head-title right'>Featured Project</p>
                     <h2 className='product-name right'>weather</h2>
@@ -176,6 +177,26 @@ const Projects = () => {
                     <div className='btns-icons'>
 
                     </div>
+                </div>
+            </div>
+            <div className='box left'>
+                <div className='projectInformation'>
+                <p className='head-title'>Featured Project</p>
+                    <h2 className='product-name'>traslator App</h2>
+                    <p className='Project-desc'>
+                        translator application make by html css javascript api and json file and <br />{'-'} 
+                        useing pure javascript
+                    </p>
+                    <div className='project-icons'>
+
+                    </div>
+                    <div className='btns-icons'>
+
+                    </div>
+                </div>
+                <div className='project-img'>
+                    <img src={translator} alt=''/>
+                    <div className='bg-project'></div>
                 </div>
             </div>
         </div>
