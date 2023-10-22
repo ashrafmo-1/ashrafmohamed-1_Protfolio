@@ -55,7 +55,7 @@ function App() {
         </div>
         <footer>
           <p className='footer'>
-            © 2023 ashraf mohamed. All rights reserved.
+          All rights reserved © 2023 to ashraf mohamed
           </p>
         </footer>
       </div>

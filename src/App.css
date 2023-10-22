@@ -1,5 +1,5 @@
 *{
-  margin: 0;padding: 0;box-sizing: border-box;user-select: none;
+  margin: 0;padding: 0;box-sizing: border-box;
 }
 :root{
   --bgc: #11071F;
@@ -290,4 +290,14 @@ nav span:hover{
   font-size: 22px;
   color: #eee;
   margin-bottom: 20px;
+}
+@media(max-width: 460px) {
+  .footer{
+    font-size: 18px;
+  }
+}
+@media(max-width: 375px) {
+  .footer{
+    font-size: 14px;
+  }
 }
