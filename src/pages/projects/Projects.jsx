@@ -9,21 +9,14 @@ import weather from '../../assets/Projects/weather-site.png'
 import search from '../../assets/Projects/search (1).png'
 import translator from '../../assets/Projects/translator.png'
 
-import { FaHtml5 } from "react-icons/fa6";
+import html  from "../../assets/html.svg";
 import css from '../../assets/Rectangle 7.png'
-import figma from '../../assets/Rectangle 1.png'
+// import figma from '../../assets/Rectangle 1.png'
 import react from '../../assets/Rectangle 2.png'
 import js from '../../assets/Rectangle 6.png'
 import redux from '../../assets/Rectangle 8.png'
 import next from '../../assets/Rectangle 9.png'
-import git from '../../assets/git.svg'
-import cmd from '../../assets/terminal.svg'
-import githup from '../../assets/github.svg'
 import bootstarp from '../../assets/bootstrap.svg'
-import linux from '../../assets/linux.svg'
-import slack from '../../assets/slack.svg'
-import notion from '../../assets/notion.svg'
-import firebase from '../../assets/firebase.svg'
 
 const Projects = () => {
   return (
@@ -40,11 +33,12 @@ const Projects = () => {
                     </p>
                     </div>
                     <div className='project-icons'>
-                        <FaHtml5 />
+                        <img src={html} alt='' />
                         <img src={css} alt='' />
                     </div>
-                    <div className='btns-icons'>
-
+                    <div className='btns-data'>
+                        <a target='_blank' href='https://github.com/ashrafmo-1/ASH-EDUCATION' className='btnLink'>src code</a>
+                        <a target='_blank' href='https://ashrafmo-1.github.io/ASH-EDUCATION/' className='btnLink active'>live</a>
                     </div>
                 </div>
                 <div className='project-img'>
@@ -65,10 +59,13 @@ const Projects = () => {
                     Responsive design with all devices
                     </p>
                     <div className='project-icons'>
-
+                    <img src={html} alt='' />
+                        <img src={css} alt='' />
+                        <img src={bootstarp} alt='' />
                     </div>
-                    <div className='btns-icons'>
-
+                    <div className='btns-data'>
+                        <a target='_blank' href='https://github.com/ashrafmo-1/bondi-site' className='btnLink'>src code</a>
+                        <a target='_blank' href='https://ashrafmo-1.github.io/bondi-site/' className='btnLink active'>live</a>
                     </div>
                 </div>
             </div>
@@ -82,10 +79,16 @@ const Projects = () => {
                     information about each track.
                     </p>
                     <div className='project-icons'>
-
+                    <img src={html} alt='' />
+                        <img src={css} alt='' />
+                        <img src={js} alt='' />
+                        <img src={react} alt='' />
+                        <img src={redux} alt='' />
+                        <img src={bootstarp} alt='' />
                     </div>
-                    <div className='btns-icons'>
-
+                    <div className='btns-data'>
+                        <a target='_blank' href='https://github.com/ashrafmo-1/E-commerce_products-management_react.js' className='btnLink'>src code</a>
+                        <a target='_blank' href='https://a-m-productsmanagment.web.app' className='btnLink active'>live</a>
                     </div>
                 </div>
                 <div className='project-img'>
@@ -107,10 +110,13 @@ const Projects = () => {
                     information about each track.
                     </p>
                     <div className='project-icons'>
-
+                    <img src={html} alt='' />
+                        <img src={css} alt='' />
+                        <img src={js} alt='' />
                     </div>
-                    <div className='btns-icons'>
-
+                    <div className='btns-data'>
+                        <a target='_blank' href='https://github.com/ashrafmo-1/special-webSite-full-responsive' className='btnLink'>src code</a>
+                        <a target='_blank' href='https://ashrafmo-1.github.io/special-webSite-full-responsive/' className='btnLink active'>live</a>
                     </div>
                 </div>
             </div>
@@ -124,10 +130,15 @@ const Projects = () => {
                     information about each track.
                     </p>
                     <div className='project-icons'>
-
+                    <img src={html} alt='' />
+                        <img src={css} alt='' />
+                        <img src={js} alt='' />
+                        <img src={react} alt='' />
+                        <img src={bootstarp} alt='' />
                     </div>
-                    <div className='btns-icons'>
-
+                    <div className='btns-data'>
+                        <a target='_blank' href='https://github.com/ashrafmo-1/crud-products-app' className='btnLink'>src code</a>
+                        <a target='_blank' href='https://a-m-productsmanagment.web.app/' className='btnLink active'>live</a>
                     </div>
                 </div>
                 <div className='project-img'>
@@ -149,10 +160,14 @@ const Projects = () => {
                     information about each track.
                     </p>
                     <div className='project-icons'>
-
+                    <img src={html} alt='' />
+                        <img src={css} alt='' />
+                        <img src={js} alt='' />
+                        <img src={react} alt='' />
                     </div>
-                    <div className='btns-icons'>
-
+                    <div className='btns-data'>
+                        <a target='_blank' href='https://github.com/ashrafmo-1/Calculator-react-Js' className='btnLink'>src code</a>
+                        <a target='_blank' href='https://simple-calculator-11.web.app/' className='btnLink active'>live</a>
                     </div>
                 </div>
             </div>
@@ -166,10 +181,12 @@ const Projects = () => {
                     information about each track.
                     </p>
                     <div className='project-icons'>
-
+                    <img src={html} alt='' />
+                        <img src={css} alt='' />
                     </div>
-                    <div className='btns-icons'>
-
+                    <div className='btns-data'>
+                        <a target='_blank' href='https://github.com/ashrafmo-1/search' className='btnLink'>src code</a>
+                        <a target='_blank' href='https://ashrafmo-1.github.io/search/' className='btnLink active'>live</a>
                     </div>
                 </div>
                 <div className='project-img'>
@@ -191,10 +208,13 @@ const Projects = () => {
                     information about each track.
                     </p>
                     <div className='project-icons'>
-
+                    <img src={html} alt='' />
+                        <img src={css} alt='' />
+                        <img src={js} alt='' />
                     </div>
-                    <div className='btns-icons'>
-
+                    <div className='btns-data'>
+                        <a target='_blank' href='https://github.com/ashrafmo-1/weather' className='btnLink'>src code</a>
+                        <a target='_blank' href='https://ashrafmo-1.github.io/weather/' className='btnLink active'>live</a>
                     </div>
                 </div>
             </div>
@@ -207,10 +227,13 @@ const Projects = () => {
                         useing pure javascript
                     </p>
                     <div className='project-icons'>
-
+                    <img src={html} alt='' />
+                        <img src={css} alt='' />
+                        <img src={js} alt='' />
                     </div>
-                    <div className='btns-icons'>
-
+                    <div className='btns-data'>
+                        <a target='_blank' href='https://github.com/ashrafmo-1/translate-app' className='btnLink'>src code</a>
+                        <a target='_blank' href='https://ashrafmo-1.github.io/translate-app/' className='btnLink active'>live</a>
                     </div>
                 </div>
                 <div className='project-img'>

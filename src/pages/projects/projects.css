@@ -52,7 +52,7 @@ order: 0;
     font-size: 34px;
     font-weight: 600;
     letter-spacing: 0.68px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: left;
 }
 .projects .projectInformation .product-name.right{
@@ -93,7 +93,6 @@ order: 0;
         float: none;
         text-align: center;
         width: 100%;
-        margin-bottom: 20px;
     }
 }
 
@@ -102,7 +101,13 @@ order: 0;
 .projects .projectInformation .project-icons{
     display: flex;
     align-items: center;
+    gap: 10px;
+    margin-top: 20px;
 }
+.projects .projectInformation .project-icons img{
+    width: 35px;
+}
+
 .projects .project-img{
     width: 46%;
 }
@@ -167,4 +172,45 @@ order: 0;
     .projects .project-img .bg-project{
         display: none;
     }
+}
+
+.btns-data {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+    position: relative;
+}
+.btns-data .btnLink{
+    text-decoration: none;
+    color:#9857D3;
+    background-color: #fff;
+    padding: 2px 8px;
+    font-size: 25px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 40px;
+    top: 0;
+}
+.btns-data .btnLink::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    background-color: #9757d34b;
+    transition: .4s;
+}
+.btns-data .btnLink.active::after{
+    left: -110px;
+}
+.btns-data .btnLink:hover::after {
+    left: -110px;
+}
+.btns-data .btnLink.active:hover::after {
+    left: 0px;
 }
