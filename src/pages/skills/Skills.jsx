@@ -9,10 +9,10 @@ import git from '../../assets/git.svg'
 import cmd from '../../assets/terminal.svg'
 import githup from '../../assets/github.svg'
 import bootstarp from '../../assets/bootstrap.svg'
-import linux from '../../assets/linux.svg'
 import slack from '../../assets/slack.svg'
 import notion from '../../assets/notion.svg'
 import firebase from '../../assets/firebase.svg'
+import vite from '../../assets/vite-seeklogo.com.svg'
 import './skils.css'
 
 const Skills = () => {
@@ -31,19 +31,25 @@ const Skills = () => {
         <img src={css} alt='' />
       </div>
       <div className='box'>
+        <img src={bootstarp} alt='' />
+      </div>
+      <div className='box'>
         <img src={js} alt='' />
       </div>
       <div className='box'>
         <img src={react} alt='' />
       </div>
       <div className='box'>
-        <img src={figma} alt='' />
+        <img src={vite} alt='' />
+      </div>
+      <div className='box'>
+        <img src={next} className='next' alt='' />
       </div>
       <div className='box'>
         <img src={redux} alt='' />
       </div>
       <div className='box'>
-        <img src={next} className='next' alt='' />
+        <img src={figma} alt='' />
       </div>
       <div className='box'>
         <img src={git} alt='' />
@@ -53,12 +59,6 @@ const Skills = () => {
       </div>
       <div className='box'>
         <img src={githup} alt='' />
-      </div>
-      <div className='box'>
-        <img src={bootstarp} alt='' />
-      </div>
-      <div className='box'>
-        <img src={linux} alt='' />
       </div>
       <div className='box'>
         <img src={slack} alt='' />

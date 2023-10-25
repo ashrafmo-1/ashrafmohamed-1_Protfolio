@@ -11,12 +11,11 @@ import translator from '../../assets/Projects/translator.png'
 
 import html  from "../../assets/html.svg";
 import css from '../../assets/Rectangle 7.png'
-// import figma from '../../assets/Rectangle 1.png'
 import react from '../../assets/Rectangle 2.png'
 import js from '../../assets/Rectangle 6.png'
 import redux from '../../assets/Rectangle 8.png'
-import next from '../../assets/Rectangle 9.png'
 import bootstarp from '../../assets/bootstrap.svg'
+// import next from '../../assets/Rectangle 9.png'
 
 const Projects = () => {
   return (
@@ -25,11 +24,10 @@ const Projects = () => {
             <div className='box left'>
                 <div className='projectInformation'>
                     <div>
-                    <p class="head-title">Featured Project</p>
                     <h2 className='product-name'>Ash-education</h2>
                     <p className='Project-desc'>
-                    Specially designed for beginners because he is familiar with all the fields of technology of this era
-                    Responsive design with all devices
+                    Specially designed for beginners because he is familiar with all the fields of technology of this era <br />
+                    -Responsive design with all devices
                     </p>
                     </div>
                     <div className='project-icons'>
@@ -52,7 +50,6 @@ const Projects = () => {
                     <div className='bg-project right'></div>
                 </div>
                 <div className='projectInformation'>
-                    <p className='head-title right'>Featured Project</p>
                     <h2 className='product-name right'>Bondi bootstarp</h2>
                     <p className='Project-desc right'>
                     Designed entirely by the css bootstrap office
@@ -74,9 +71,7 @@ const Projects = () => {
                 <p className='head-title'>Featured Project</p>
                     <h2 className='product-name'>e-commerce</h2>
                     <p className='Project-desc'>
-                    A web app for visualizing personalized Spotify data. View your
-                    top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track.
+                    A web application for visualizing custom e-commerce products you can add and remove login control and products
                     </p>
                     <div className='project-icons'>
                     <img src={html} alt='' />
@@ -105,9 +100,7 @@ const Projects = () => {
                     <p className='head-title right'>Featured Project</p>
                     <h2 className='product-name right'>customize site</h2>
                     <p className='Project-desc right'>
-                    A web app for visualizing personalized Spotify data. View your
-                    top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track.
+                    You can change the color, Background and fonts all this by javascript
                     </p>
                     <div className='project-icons'>
                     <img src={html} alt='' />
@@ -125,9 +118,7 @@ const Projects = () => {
                 <p className='head-title'>Featured Project</p>
                     <h2 className='product-name'>products management</h2>
                     <p className='Project-desc'>
-                    A web app for visualizing personalized Spotify data. View your
-                    top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track.
+                    crud management, amd you can add, remove nay product
                     </p>
                     <div className='project-icons'>
                     <img src={html} alt='' />
@@ -152,13 +143,7 @@ const Projects = () => {
                     <div className='bg-project right'></div>
                 </div>
                 <div className='projectInformation'>
-                    <p className='head-title right'>Featured Project</p>
                     <h2 className='product-name right'>Calculater</h2>
-                    <p className='Project-desc right'>
-                    A web app for visualizing personalized Spotify data. View your
-                    top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track.
-                    </p>
                     <div className='project-icons'>
                     <img src={html} alt='' />
                         <img src={css} alt='' />
@@ -173,12 +158,9 @@ const Projects = () => {
             </div>
             <div className='box left'>
                 <div className='projectInformation'>
-                <p className='head-title'>Featured Project</p>
                     <h2 className='product-name'>search bar</h2>
                     <p className='Project-desc'>
-                    A web app for visualizing personalized Spotify data. View your
-                    top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track.
+                    input faild traning: display flex
                     </p>
                     <div className='project-icons'>
                     <img src={html} alt='' />
@@ -203,9 +185,7 @@ const Projects = () => {
                     <p className='head-title right'>Featured Project</p>
                     <h2 className='product-name right'>weather</h2>
                     <p className='Project-desc right'>
-                    A web app for visualizing personalized Spotify data. View your
-                    top artists, top tracks, recently played tracks, and detailed audio
-                    information about each track.
+                    type your country name to get your weather
                     </p>
                     <div className='project-icons'>
                     <img src={html} alt='' />
