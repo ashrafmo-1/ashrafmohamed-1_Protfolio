@@ -1,5 +1,7 @@
 *{
-  margin: 0;padding: 0;box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root{
   --bgc: #11071F;
@@ -15,6 +17,10 @@ body{
 .Container {
   width: 85%;
   margin: auto;
+}
+
+body {
+  scroll-behavior: smooth;
 }
 
 @media(max-width:767px) {
@@ -33,26 +39,39 @@ header {
   padding: 10px;
   background: #1A0B2E;
   border-radius: 10px;
+  position: sticky;
 }
 
 .nav-title {
   color: #fff;
+  font-size: 25px;
 }
 .nav-title span {
   color: #7127BA;
+  font-size: 30px;
 }
 
+@media(max-width:650px) {
+  .nav-title {
+    font-size: 20px;
+  }
+  .nav-title span {
+    font-size: 25px;
+  }
+}
 
 nav{
   display: flex;
   gap: 20px;
   font-size: 16px;
   color: #fff;
+  z-index: 99999;
 }
-@media(max-width:500px) {
+@media(max-width: 650px) {
   nav{
     position: absolute;
     top: -190px;
+    z-index: 99999;
   }
   .active{
     display: flex;
@@ -61,21 +80,31 @@ nav{
     top: 90px;
     background: #1A0B2E;
     width: 90%;
-    height: 200px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 99;
     padding: 20px 15px;
     border-radius: 15px;
     transition: .4s;
+    z-index: 999999;
+  }
+  .navgation.active a{
+    background-color: #7127BA;
+    padding: 4px 10px;
+    font-size: 22px;
+    border-radius: 6px;
+  }
+  .navgation.active a:hover{
+    background-color: var(--bgc)
   }
 }
 
-nav span {
+nav a {
   cursor: pointer;
   transition: .6s;
+  z-index: 99999;
 }
-nav span:hover{
+
+nav a:hover{
   color: #7127BA;
 }
 
@@ -91,11 +120,12 @@ nav span:hover{
   padding: 3px;
   cursor: pointer;
 }
-@media(min-width: 501px) {
+@media(min-width: 650px) {
   .toggleBar{
     display: none;
   }
 }
+
 
 /* start landing */
 .landing{
@@ -104,6 +134,7 @@ nav span:hover{
   align-items: center;
   gap: 20px;
 }
+
 @media(max-width: 767px) {
   .landing{
     display: flex;
@@ -131,6 +162,7 @@ nav span:hover{
   .head-image {
     width: 270px;
     height: 260px;
+    z-index: -1;
   }
 }
 
@@ -158,6 +190,11 @@ nav span:hover{
   font-weight: bold;
   transform: translateY(-40px);
   position: relative;
+}
+@media(max-width: 550px){
+  .head-name {
+    font-size: 20px;
+  }
 }
 .head-name::after{
   background-repeat: no-repeat;

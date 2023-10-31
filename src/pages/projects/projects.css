@@ -28,6 +28,7 @@ order: 0;
 @media(max-width: 767px) {
     .projects .projectInformation {
         order: 2;
+        width: 80%;
     }
     
 }

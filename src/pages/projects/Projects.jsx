@@ -8,6 +8,7 @@ import calc from '../../assets/Projects/proj-10.png'
 import weather from '../../assets/Projects/weather-site.png'
 import search from '../../assets/Projects/search (1).png'
 import translator from '../../assets/Projects/translator.png'
+import dash from '../../assets/Projects/dash.png'
 
 import html  from "../../assets/html.svg";
 import css from '../../assets/Rectangle 7.png'
@@ -15,11 +16,12 @@ import react from '../../assets/Rectangle 2.png'
 import js from '../../assets/Rectangle 6.png'
 import redux from '../../assets/Rectangle 8.png'
 import bootstarp from '../../assets/bootstrap.svg'
+import vite from '../../assets/vite-seeklogo.com.svg'
 // import next from '../../assets/Rectangle 9.png'
 
 const Projects = () => {
   return (
-    <div className='projects'>
+    <div className='projects' id='projects'>
         <div className='projectsBoxes'>
             <div className='box left'>
                 <div className='projectInformation'>
@@ -50,8 +52,8 @@ const Projects = () => {
                     <div className='bg-project right'></div>
                 </div>
                 <div className='projectInformation'>
-                    <h2 className='product-name right'>Bondi bootstarp</h2>
-                    <p className='Project-desc right'>
+                    <h2 className='product-name'>Bondi bootstarp</h2>
+                    <p className='Project-desc'>
                     Designed entirely by the css bootstrap office
                     Responsive design with all devices
                     </p>
@@ -97,9 +99,9 @@ const Projects = () => {
                     <div className='bg-project right'></div>
                 </div>
                 <div className='projectInformation'>
-                    <p className='head-title right'>Featured Project</p>
-                    <h2 className='product-name right'>customize site</h2>
-                    <p className='Project-desc right'>
+                    <p className='head-title'>Featured Project</p>
+                    <h2 className='product-name'>customize site</h2>
+                    <p className='Project-desc'>
                     You can change the color, Background and fonts all this by javascript
                     </p>
                     <div className='project-icons'>
@@ -143,7 +145,7 @@ const Projects = () => {
                     <div className='bg-project right'></div>
                 </div>
                 <div className='projectInformation'>
-                    <h2 className='product-name right'>Calculater</h2>
+                    <h2 className='product-name'>Calculater</h2>
                     <div className='project-icons'>
                     <img src={html} alt='' />
                         <img src={css} alt='' />
@@ -182,9 +184,9 @@ const Projects = () => {
                     <div className='bg-project right'></div>
             </div>
                 <div className='projectInformation'>
-                    <p className='head-title right'>Featured Project</p>
-                    <h2 className='product-name right'>weather</h2>
-                    <p className='Project-desc right'>
+                    <p className='head-title'>Featured Project</p>
+                    <h2 className='product-name'>weather</h2>
+                    <p className='Project-desc'>
                     type your country name to get your weather
                     </p>
                     <div className='project-icons'>
@@ -219,6 +221,29 @@ const Projects = () => {
                 <div className='project-img'>
                     <img src={translator} alt=''/>
                     <div className='bg-project'></div>
+                </div>
+            </div>
+            <div className='box right'>
+            <div className='project-img'>
+                    <img src={dash} alt=''/>
+                    <div className='bg-project right'></div>
+            </div>
+                <div className='projectInformation'>
+                    <p className='head-title'>Featured Project</p>
+                    <h2 className='product-name'>Dashboard</h2>
+                    <p className='Project-desc right'>
+                    Dashboard make by vite + react, show toDos tasks and peron information
+                    </p>
+                    <div className='project-icons'>
+                        <img src={vite} alt='' />
+                        <img src={css} alt='' />
+                        <img src={js} alt='' />
+                        <img src={bootstarp} alt='' />
+                    </div>
+                    <div className='btns-data'>
+                        <a target='_blank' href='https://github.com/ashrafmo-1/weather' className='btnLink'>src code</a>
+                        <a target='_blank' href='https://ashrafmo-1.github.io/weather/' className='btnLink active'>live</a>
+                    </div>
                 </div>
             </div>
         </div>

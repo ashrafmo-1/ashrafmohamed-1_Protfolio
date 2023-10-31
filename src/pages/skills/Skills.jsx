@@ -17,7 +17,7 @@ import './skils.css'
 
 const Skills = () => {
   return (
-    <div className='skills'>
+    <div className='skills' id="skills">
     <h1 className='skillsTitle'>
       I'm currently looking to join a cross-functional team
       that values improving people's lives through accessible design
