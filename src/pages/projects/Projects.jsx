@@ -241,8 +241,8 @@ const Projects = () => {
                         <img src={bootstarp} alt='' />
                     </div>
                     <div className='btns-data'>
-                        <a target='_blank' href='https://github.com/ashrafmo-1/weather' className='btnLink'>src code</a>
-                        <a target='_blank' href='https://ashrafmo-1.github.io/weather/' className='btnLink active'>live</a>
+                        <a target='_blank' href='' className='btnLink'>src code</a>
+                        <a target='_blank' href='' className='btnLink active'>live</a>
                     </div>
                 </div>
             </div>
