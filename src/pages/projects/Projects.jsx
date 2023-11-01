@@ -241,8 +241,8 @@ const Projects = () => {
                         <img src={bootstarp} alt='' />
                     </div>
                     <div className='btns-data'>
-                        <a target='_blank' href='' className='btnLink'>src code</a>
-                        <a target='_blank' href='' className='btnLink active'>live</a>
+                        <a target='_blank' href='https://github.com/ashrafmo-1/dashboard-by-viteReact' className='btnLink'>src code</a>
+                        <a target='_blank' href='https://vite-dashboard-1.netlify.app' className='btnLink active'>live</a>
                     </div>
                 </div>
             </div>
