@@ -297,36 +297,13 @@ nav a:hover{
 }
 
 
-.contact-me {
-  margin: 200px 0px 100px 0px;
-  width: 40%;
-}
-.contact-me .contact-title {
-  color: #FFF;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.5px;
-  margin-bottom: 60px;
-}
-.contact-me .contact-descreption {
-  color: #FFF;
-  font-size: 14px;
-  width: 100%;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.3px;
-  margin-bottom: 20px;
-}
-.contact-me .contactLink {
-  color: #fff;
-}
+
 
 .footer {
   text-align: center;
   font-size: 22px;
   color: #eee;
-  margin-bottom: 20px;
+  margin: 150px 0px 10px 0px;
 }
 @media(max-width: 460px) {
   .footer{

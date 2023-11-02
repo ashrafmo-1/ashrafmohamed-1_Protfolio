@@ -2,15 +2,28 @@
     color: #fff;
     margin-bottom: 100px;
 }
+
+.projectTitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.48px;
+    max-width: 50%;
+    margin: 70px auto;
+    border: 1px solid #eee;
+    padding: 8px 4px;
+    border-radius: 20px;
+}
+
 .projects .box{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 150px;
 }
-/* .projects .box.left .projectInformation{
-order: 0;
-} */
+
 @media(max-width:767px) {
     .projects .box{
         flex-direction: column;

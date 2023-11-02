@@ -17,12 +17,13 @@ import js from '../../assets/Rectangle 6.png'
 import redux from '../../assets/Rectangle 8.png'
 import bootstarp from '../../assets/bootstrap.svg'
 import vite from '../../assets/vite-seeklogo.com.svg'
-// import next from '../../assets/Rectangle 9.png'
 
 const Projects = () => {
-  return (
+    return (
     <div className='projects' id='projects'>
+        <h1 className='projectTitle'>Business Gallery</h1>
         <div className='projectsBoxes'>
+                        {/* Ash-education */}
             <div className='box left'>
                 <div className='projectInformation'>
                     <div>
@@ -46,6 +47,7 @@ const Projects = () => {
                     <div className='bg-project'></div>
                 </div>
             </div>
+            {/* Bondi bootstarp */}
             <div className='box right'>
             <div className='project-img'>
                     <img src={bondi} alt=''/>
@@ -68,6 +70,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            {/* e-commerce */}
             <div className='box left'>
                 <div className='projectInformation'>
                 <p className='head-title'>Featured Project</p>
@@ -93,6 +96,7 @@ const Projects = () => {
                     <div className='bg-project'></div>
                 </div>
             </div>
+            {/* customize site */}
             <div className='box right'>
             <div className='project-img'>
                     <img src={customize} alt=''/>
@@ -115,6 +119,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            {/* products management */}
             <div className='box left'>
                 <div className='projectInformation'>
                 <p className='head-title'>Featured Project</p>
@@ -139,6 +144,7 @@ const Projects = () => {
                     <div className='bg-project'></div>
                 </div>
             </div>
+            {/* Calculater */}
             <div className='box right'>
             <div className='project-img'>
                     <img src={calc} alt=''/>
@@ -158,6 +164,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            {/* search bar */}
             <div className='box left'>
                 <div className='projectInformation'>
                     <h2 className='product-name'>search bar</h2>
@@ -178,6 +185,7 @@ const Projects = () => {
                     <div className='bg-project'></div>
                 </div>
             </div>
+            {/* weather */}
             <div className='box right'>
             <div className='project-img'>
                     <img src={weather} alt=''/>
@@ -200,6 +208,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            {/* traslator App */}
             <div className='box left'>
                 <div className='projectInformation'>
                 <p className='head-title'>Featured Project</p>
@@ -223,6 +232,7 @@ const Projects = () => {
                     <div className='bg-project'></div>
                 </div>
             </div>
+            {/* vite dashboard */}
             <div className='box right'>
             <div className='project-img'>
                     <img src={dash} alt=''/>
@@ -248,7 +258,7 @@ const Projects = () => {
             </div>
         </div>
     </div>
-  )
+    )
 }
 
 export default Projects

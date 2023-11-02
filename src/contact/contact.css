@@ -1,0 +1,106 @@
+.contact-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 31px;
+    letter-spacing: 0.48px;
+    max-width: 50%;
+    margin: 70px auto;
+    border: 1px solid #eee;
+    padding: 8px 4px;
+    border-radius: 20px;
+}
+
+.callMe {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+@media(max-width:767px) {
+    .callMe {
+        flex-direction: column;
+    }
+}
+
+.contentContact.text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+@media(max-width:767px) {
+    .contentContact.text {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.contentContact.text .contact-descreption {
+    width: 100%;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 20px;
+}
+
+.callMe .contactLink {
+color: #fff;
+}
+
+.contentContact.form {
+    width: 60%;
+}
+@media(max-width:767px) {
+    .contentContact.form {
+        margin: auto;
+        width: 80%;
+    }
+}
+
+.contentContact.form .inputFaild {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.contentContact.form label {
+    color: #eee;
+}
+
+.contentContact.form input {
+    border: 1px solid #eee;
+    color: #eee;
+    background-color: transparent;
+    border-radius: 8px;
+    height: 50px;
+    font-size: 28px;
+    padding: 0 8px;
+    outline: none;
+}
+
+.contentContact.form textarea{
+    border: 1px solid #eee;
+    color: #eee;
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: 28px;
+    padding: 10px 8px;
+    resize: none;
+    outline: none;
+}
+
+.btnSentMail {
+    background-color: #eeeeee23;
+    color: #eee;
+    font-size: 22px;
+    border: 1px solid #eee;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
