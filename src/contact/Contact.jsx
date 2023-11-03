@@ -5,22 +5,26 @@ import Swal from 'sweetalert2'
 
 const Contact = () => {
 
-  const form = useRef();
-  // sent email by mailJs
-  const sendEmail = (e) => {
-    e.preventDefault();
-    // information account emailJs
-    emailjs.sendForm('service_2jd6ttc', 'template_3q4wxrp', form.current, 'PmARZnCEW1lngVqiK')
-      .then((result) => {
-            Swal.fire(
-              'Email sent successfully',
-              'we well calling you in the email',
-              'success'
-            )
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+const form = useRef();
+// sent email by mailJs
+const sendEmail = (e) => {
+  e.preventDefault();
+  // information account emailJs
+  emailjs.sendForm('service_2jd6ttc', 'template_3q4wxrp', form.current, 'PmARZnCEW1lngVqiK')
+    .then((result) => {
+          Swal.fire(
+            'Email sent successfully',
+            'we well calling you in the email',
+            'success'
+          )
+    }, (error) => {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Something went wrong!'
+      })
+    });
+};
 
   return (
     <div className='contact-me' id='contact'>
