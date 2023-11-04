@@ -9,6 +9,7 @@ import weather from '../../assets/Projects/weather-site.png'
 import search from '../../assets/Projects/search (1).png'
 import translator from '../../assets/Projects/translator.png'
 import dash from '../../assets/Projects/dash.png'
+import GithubRepos from '../../assets/Projects/Github-repos.png'
 
 import html  from "../../assets/html.svg";
 import css from '../../assets/Rectangle 7.png'
@@ -254,6 +255,27 @@ const Projects = () => {
                         <a target='_blank' href='https://github.com/ashrafmo-1/dashboard-by-viteReact' className='btnLink'>src code</a>
                         <a target='_blank' href='https://vite-dashboard-1.netlify.app' className='btnLink active'>live</a>
                     </div>
+                </div>
+            </div>
+            <div className='box left'>
+                <div className='projectInformation'>
+                    <h2 className='product-name'>get Github repository</h2>
+                    <p className='Project-desc'>
+                        can user type github user name in input field and api wiill get all repositories
+                    </p>
+                    <div className='project-icons'>
+                    <img src={html} alt='' />
+                        <img src={css} alt='' />
+                        <img src={js} alt='' />
+                    </div>
+                    <div className='btns-data'>
+                        <a target='_blank' href='https://github.com/ashrafmo-1/get_Github-repository' className='btnLink'>src code</a>
+                        <a target='_blank' href='https://ashrafmo-1.github.io/get_Github-repository/' className='btnLink active'>live</a>
+                    </div>
+                </div>
+                <div className='project-img'>
+                    <img src={GithubRepos} alt=''/>
+                    <div className='bg-project'></div>
                 </div>
             </div>
         </div>
