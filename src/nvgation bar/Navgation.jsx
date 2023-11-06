@@ -2,6 +2,7 @@ import React from 'react'
 import { FaBarsStaggered } from 'react-icons/fa6'
 // import { HashLink as Link } from 'react-router-hash-link'
 import { Link } from 'react-scroll'
+import './nav.css'
 
 const Navgation = () => {
     return (

@@ -1,0 +1,113 @@
+.landing{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  @media(max-width: 767px) {
+    .landing{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+    }
+  }
+  
+  .head-image {
+    width: 385px;
+    height: 431px;
+    border-radius: 431px;
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
+    position: relative;
+  }
+  @media(max-width: 991px) {
+    .head-image {
+      width: 285px;
+      height: 331px;
+    }
+  }
+  @media(max-width: 767px) {
+    .head-image {
+      width: 270px;
+      height: 260px;
+      z-index: -1;
+    }
+  }
+  
+  .head-image .my-image {
+    width: 180px;
+    height: 259px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
+  }
+  @media(max-width: 767px) {
+    .head-image .my-image {
+      width: 125px;
+      height: 180px;
+    }
+  }
+  .head-name {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    position: absolute;
+    font-weight: bold;
+    transform: translateY(-40px);
+    position: relative;
+  }
+  @media(max-width: 550px){
+    .head-name {
+      font-size: 20px;
+    }
+  }
+  .head-name::after{
+    background-repeat: no-repeat;
+    position: absolute;
+    content: url(../assets/Arrow.png);
+    left: -110px;top: 10px;
+  }
+  @media(max-width: 991px) {
+    .head-name::after{
+      content: '';
+    }
+  }
+  
+  .head-name span {
+    color: #7127BA;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 97px;
+    letter-spacing: -0.5px;
+  }
+  .head-jop {
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.34px;
+    text-decoration-line: underline;
+  }
+  .head-hent{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    max-width: 500px;
+  }
+  @media(max-width: 991px) {
+    .head-hent{
+      font-size: 30px;
+    }
+  }
+  @media(max-width: 767px) {
+    .head-hent{
+      font-size: 40px;
+    }
+  }
+  

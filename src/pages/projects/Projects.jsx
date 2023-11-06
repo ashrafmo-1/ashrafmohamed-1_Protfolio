@@ -257,6 +257,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            {/* Github repos */}
             <div className='box left'>
                 <div className='projectInformation'>
                     <h2 className='product-name'>get Github repository</h2>
