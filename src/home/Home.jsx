@@ -13,10 +13,10 @@ const Home = () => {
     <div className='landing' id='#home'>
     <div className='head-image'><img className='my-image' src={my} alt='' /></div>
     <div className='content'>
-      <p className='head-name'>Hello! I'am
+      <p className='head-name'>Hello! I'am 
       <span>
         <Typewriter
-            words={['Ashraf']}
+            words={['Ashraf Mohamed']}
             loop={1}
             cursor
             cursorStyle='|'
@@ -27,7 +27,7 @@ const Home = () => {
           </span> </p>
       <span className='head-jop'>
         <Typewriter
-            words={['front end developmer']}
+            words={['front end developmer', 'javascript developmer', 'typescript developmer',]}
             loop={12}
             cursor
             cursorStyle='_'
