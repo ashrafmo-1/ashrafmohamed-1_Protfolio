@@ -9,10 +9,9 @@
 body{
   background-color: var(--bgc);
   font-family: sans-serif;
-  
-  a{
-    text-decoration: none;
-  }
+}
+a{
+  text-decoration: none;
 }
 .Container {
   width: 85%;
