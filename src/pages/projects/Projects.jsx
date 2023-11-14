@@ -34,12 +34,12 @@ const Projects = () => {
     return (
     <div className='projects' id='projects'>
         <h1 className='projectTitle'>Business Gallery</h1>
-        <div className="projectFilter">
+        {/* <div className="projectFilter">
             <div className={'box'}> All </div>
             <div className={'box'}> html, css </div>
             <div className={'box'} >html, css, js</div>
             <div className={'box'} >React</div>
-        </div>
+        </div> */}
         <div className="porjetsBoxes">
             <div className="box">
                 <div className="img">
