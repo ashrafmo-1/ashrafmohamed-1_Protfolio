@@ -3,12 +3,6 @@ import './home.css'
 import { Typewriter } from 'react-simple-typewriter'
 
 const Home = () => {
-
-  // const {text} = Typewriter({
-  //   words: ['ashraf', 'mohamed', 'ali'],
-  //   loop: {},
-  // })
-
   return (
     <div className='landing' id='#home'>
     <div className='head-image'><img className='my-image' src={my} alt='' /></div>

@@ -6,7 +6,6 @@ import customize from '../../assets/Projects/page customize.png'
 import managmentManagment from '../../assets/Projects/products managment.png'
 import calc from '../../assets/Projects/proj-10.png'
 import weather from '../../assets/Projects/weather-site.png'
-import search from '../../assets/Projects/search (1).png'
 import translator from '../../assets/Projects/translator.png'
 import dash from '../../assets/Projects/dash.png'
 import GithubRepos from '../../assets/Projects/Github-repos.png'
@@ -19,264 +18,220 @@ import redux from '../../assets/Rectangle 8.png'
 import bootstarp from '../../assets/bootstrap.svg'
 import vite from '../../assets/vite-seeklogo.com.svg'
 
+
+import { FaRegEye } from "react-icons/fa6"
+import { FaCode } from "react-icons/fa6";
+
+
 const Projects = () => {
+
+    // const addActiveClass = () => {
+    //     document.querySelector('.box').addEventListener('click', (ele) => {
+    //         ele.target.classList.toggle('active')
+    //     })
+    // }
+
     return (
     <div className='projects' id='projects'>
         <h1 className='projectTitle'>Business Gallery</h1>
-        <div className='projectsBoxes'>
-                        {/* Ash-education */}
-            <div className='box left'>
-                <div className='projectInformation'>
-                    <div>
-                    <h2 className='product-name'>Ash-education</h2>
-                    <p className='Project-desc'>
-                    Specially designed for beginners because he is familiar with all the fields of technology of this era <br />
-                    -Responsive design with all devices
+        <div className="projectFilter">
+            <div className={'box active'}> All </div>
+            <div className={'box'}> html, css </div>
+            <div className={'box'} >html, css, js</div>
+            <div className={'box'} >React</div>
+        </div>
+        <div className="porjetsBoxes">
+            <div className="box">
+                <div className="img">
+                    <img src={edu} alt="" />
+                    <div className="linksContent">
+                        <a href="https://github.com/ashrafmo-1/ASH-EDUCATION" target='_blank'><FaCode /></a>
+                        <a href="https://ashrafmo-1.github.io/ASH-EDUCATION/" target='_blank'><FaRegEye /></a>
+                    </div>
+                </div>
+                <div className="boxContent">
+                    <h3 className="projectName">ash education</h3>
+                    <p className='projectInfo'>can you get any tocnologe learn in this site</p>
+                    <div className="projectTools">
+                        <img src={html} alt="" />
+                        <img src={css} alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="box">
+                <div className="img">
+                    <img src={bondi} alt="" />
+                    <div className="linksContent">
+                        <a href="https://github.com/ashrafmo-1/bondi-site" target='_blank'><FaCode /></a>
+                        <a href="https://ashrafmo-1.github.io/bondi-site/" target='_blank'><FaRegEye /></a>
+                    </div>
+                </div>
+                <div className="boxContent">
+                    <h3 className="projectName">bondi_templet</h3>
+                    <p className='projectInfo'>this site to training on bootstap classes</p>
+                    <div className="projectTools">
+                        <img src={html} alt="" />
+                        <img src={css} alt="" />
+                        <img src={bootstarp} alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="box">
+                <div className="img">
+                    <img src={ecommerce} alt="" />
+                    <div className="linksContent">
+                        <a href="https://github.com/ashrafmo-1/E-commerce_products-management_react.js" target='_blank'><FaCode /></a>
+                        <a href="https://a-m-productsmanagment.web.app" target='_blank'><FaRegEye /></a>
+                    </div>
+                </div>
+                <div className="boxContent">
+                    <h3 className="projectName">full ecommerce</h3>
+                    <p className='projectInfo'>can user signUp by user and in site products management</p>
+                    <p className='projectInfo' style={{color: 'red'}}>backEnd wirking local only</p>
+                    <div className="projectTools">
+                        <img src={css} alt="" />
+                        <img src={bootstarp} alt="" />
+                        <img src={react} alt="" />
+                        <img src={js} alt="" />
+                        <img src={redux} alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="box">
+                <div className="img">
+                    <img src={customize} alt="" />
+                    <div className="linksContent">
+                        <a href="https://github.com/ashrafmo-1/special-webSite-full-responsive" target='_blank'><FaCode /></a>
+                        <a href="https://ashrafmo-1.github.io/special-webSite-full-responsive/" target='_blank'><FaRegEye /></a>
+                    </div>
+                </div>
+                <div className="boxContent">
+                    <h3 className="projectName">customize site</h3>
+                    <p className='projectInfo'>user can change background image, color text and font</p>
+                    <div className="projectTools">
+                        <img src={html} alt="" />
+                        <img src={css} alt="" />
+                        <img src={js} alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="box">
+                <div className="img">
+                    <img src={managmentManagment} alt="" />
+                    <div className="linksContent">
+                        <a href="https://github.com/ashrafmo-1/crud-products-app" target='_blank'><FaCode /></a>
+                        <a href="https://a-m-productsmanagment.web.app/" target='_blank'><FaRegEye /></a>
+                    </div>
+                </div>
+                <div className="boxContent">
+                    <h3 className="projectName">product management</h3>
+                    <p className='projectInfo'>
+                        products management can user show, add, remove products
                     </p>
-                    </div>
-                    <div className='project-icons'>
-                        <img src={html} alt='' />
-                        <img src={css} alt='' />
-                    </div>
-                    <div className='btns-data'>
-                        <a target='_blank' href='https://github.com/ashrafmo-1/ASH-EDUCATION' className='btnLink'>src code</a>
-                        <a target='_blank' href='https://ashrafmo-1.github.io/ASH-EDUCATION/' className='btnLink active'>live</a>
-                    </div>
-                </div>
-                <div className='project-img'>
-                    <img src={edu} alt=''/>
-                    <div className='bg-project'></div>
-                </div>
-            </div>
-            {/* Bondi bootstarp */}
-            <div className='box right'>
-            <div className='project-img'>
-                    <img src={bondi} alt=''/>
-                    <div className='bg-project right'></div>
-                </div>
-                <div className='projectInformation'>
-                    <h2 className='product-name'>Bondi bootstarp</h2>
-                    <p className='Project-desc'>
-                    Designed entirely by the css bootstrap office
-                    Responsive design with all devices
-                    </p>
-                    <div className='project-icons'>
-                    <img src={html} alt='' />
-                        <img src={css} alt='' />
-                        <img src={bootstarp} alt='' />
-                    </div>
-                    <div className='btns-data'>
-                        <a target='_blank' href='https://github.com/ashrafmo-1/bondi-site' className='btnLink'>src code</a>
-                        <a target='_blank' href='https://ashrafmo-1.github.io/bondi-site/' className='btnLink active'>live</a>
+                    <div className="projectTools">
+                        <img src={react} alt="" />
+                        <img src={redux} alt="" />
+                        <img src={css} alt="" />
+                        <img src={bootstarp} alt="" />
                     </div>
                 </div>
             </div>
-            {/* e-commerce */}
-            <div className='box left'>
-                <div className='projectInformation'>
-                <p className='head-title'>Featured Project</p>
-                    <h2 className='product-name'>e-commerce</h2>
-                    <p className='Project-desc'>
-                    A web application for visualizing custom e-commerce products you can add and remove login control and products
-                    </p>
-                    <div className='project-icons'>
-                    <img src={html} alt='' />
-                        <img src={css} alt='' />
-                        <img src={js} alt='' />
-                        <img src={react} alt='' />
-                        <img src={redux} alt='' />
-                        <img src={bootstarp} alt='' />
-                    </div>
-                    <div className='btns-data'>
-                        <a target='_blank' href='https://github.com/ashrafmo-1/E-commerce_products-management_react.js' className='btnLink'>src code</a>
-                        <a target='_blank' href='https://a-m-productsmanagment.web.app' className='btnLink active'>live</a>
+
+            <div className="box">
+                <div className="img">
+                    <img src={calc} alt="" />
+                    <div className="linksContent">
+                        <a href="https://github.com/ashrafmo-1/Calculator-react-Js" target='_blank'><FaCode /></a>
+                        <a href="https://simple-calculator-11.web.app/" target='_blank'><FaRegEye /></a>
                     </div>
                 </div>
-                <div className='project-img'>
-                    <img src={ecommerce} alt=''/>
-                    <div className='bg-project'></div>
-                </div>
-            </div>
-            {/* customize site */}
-            <div className='box right'>
-            <div className='project-img'>
-                    <img src={customize} alt=''/>
-                    <div className='bg-project right'></div>
-                </div>
-                <div className='projectInformation'>
-                    <p className='head-title'>Featured Project</p>
-                    <h2 className='product-name'>customize site</h2>
-                    <p className='Project-desc'>
-                    You can change the color, Background and fonts all this by javascript
-                    </p>
-                    <div className='project-icons'>
-                    <img src={html} alt='' />
-                        <img src={css} alt='' />
-                        <img src={js} alt='' />
-                    </div>
-                    <div className='btns-data'>
-                        <a target='_blank' href='https://github.com/ashrafmo-1/special-webSite-full-responsive' className='btnLink'>src code</a>
-                        <a target='_blank' href='https://ashrafmo-1.github.io/special-webSite-full-responsive/' className='btnLink active'>live</a>
+                <div className="boxContent">
+                    <h3 className="projectName">Calculater</h3>
+                    <p className='projectInfo'>full calculater syle from figma</p>
+                    <div className="projectTools">
+                        <img src={css} alt="" />
+                        <img src={react} alt="" />
                     </div>
                 </div>
             </div>
-            {/* products management */}
-            <div className='box left'>
-                <div className='projectInformation'>
-                <p className='head-title'>Featured Project</p>
-                    <h2 className='product-name'>products management</h2>
-                    <p className='Project-desc'>
-                    crud management, amd you can add, remove nay product
-                    </p>
-                    <div className='project-icons'>
-                    <img src={html} alt='' />
-                        <img src={css} alt='' />
-                        <img src={js} alt='' />
-                        <img src={react} alt='' />
-                        <img src={bootstarp} alt='' />
-                    </div>
-                    <div className='btns-data'>
-                        <a target='_blank' href='https://github.com/ashrafmo-1/crud-products-app' className='btnLink'>src code</a>
-                        <a target='_blank' href='https://a-m-productsmanagment.web.app/' className='btnLink active'>live</a>
+
+            <div className="box">
+                <div className="img">
+                    <img src={weather} alt="" />
+                    <div className="linksContent">
+                        <a href="https://github.com/ashrafmo-1/weather" target='_blank'><FaCode /></a>
+                        <a href="https://ashrafmo-1.github.io/weather/" target='_blank'><FaRegEye /></a>
                     </div>
                 </div>
-                <div className='project-img'>
-                    <img src={managmentManagment} alt=''/>
-                    <div className='bg-project'></div>
-                </div>
-            </div>
-            {/* Calculater */}
-            <div className='box right'>
-            <div className='project-img'>
-                    <img src={calc} alt=''/>
-                    <div className='bg-project right'></div>
-                </div>
-                <div className='projectInformation'>
-                    <h2 className='product-name'>Calculater</h2>
-                    <div className='project-icons'>
-                    <img src={html} alt='' />
-                        <img src={css} alt='' />
-                        <img src={js} alt='' />
-                        <img src={react} alt='' />
-                    </div>
-                    <div className='btns-data'>
-                        <a target='_blank' href='https://github.com/ashrafmo-1/Calculator-react-Js' className='btnLink'>src code</a>
-                        <a target='_blank' href='https://simple-calculator-11.web.app/' className='btnLink active'>live</a>
+                <div className="boxContent">
+                    <h3 className="projectName">weather</h3>
+                    <p className='projectInfo'>type yout country in input to shiw your current weather</p>
+                    <div className="projectTools">
+                        <img src={html} alt="" />
+                        <img src={css} alt="" />
+                        <img src={js} alt="" />
                     </div>
                 </div>
             </div>
-            {/* search bar */}
-            <div className='box left'>
-                <div className='projectInformation'>
-                    <h2 className='product-name'>search bar</h2>
-                    <p className='Project-desc'>
-                    input faild traning: display flex
-                    </p>
-                    <div className='project-icons'>
-                    <img src={html} alt='' />
-                        <img src={css} alt='' />
-                    </div>
-                    <div className='btns-data'>
-                        <a target='_blank' href='https://github.com/ashrafmo-1/search' className='btnLink'>src code</a>
-                        <a target='_blank' href='https://ashrafmo-1.github.io/search/' className='btnLink active'>live</a>
+
+            <div className="box">
+                <div className="img">
+                    <img src={translator} alt="" />
+                    <div className="linksContent">
+                        <a href="https://github.com/ashrafmo-1/translate-app" target='_blank'><FaCode /></a>
+                        <a href="https://ashrafmo-1.github.io/translate-app/" target='_blank'><FaRegEye /></a>
                     </div>
                 </div>
-                <div className='project-img'>
-                    <img src={search} alt=''/>
-                    <div className='bg-project'></div>
-                </div>
-            </div>
-            {/* weather */}
-            <div className='box right'>
-            <div className='project-img'>
-                    <img src={weather} alt=''/>
-                    <div className='bg-project right'></div>
-            </div>
-                <div className='projectInformation'>
-                    <p className='head-title'>Featured Project</p>
-                    <h2 className='product-name'>weather</h2>
-                    <p className='Project-desc'>
-                    type your country name to get your weather
-                    </p>
-                    <div className='project-icons'>
-                    <img src={html} alt='' />
-                        <img src={css} alt='' />
-                        <img src={js} alt='' />
-                    </div>
-                    <div className='btns-data'>
-                        <a target='_blank' href='https://github.com/ashrafmo-1/weather' className='btnLink'>src code</a>
-                        <a target='_blank' href='https://ashrafmo-1.github.io/weather/' className='btnLink active'>live</a>
+                <div className="boxContent">
+                    <h3 className="projectName">translator</h3>
+                    <p className='projectInfo'>can user translate any language to any language</p>
+                    <div className="projectTools">
+                        <img src={html} alt="" />
+                        <img src={css} alt="" />
+                        <img src={js} alt="" />
                     </div>
                 </div>
             </div>
-            {/* traslator App */}
-            <div className='box left'>
-                <div className='projectInformation'>
-                <p className='head-title'>Featured Project</p>
-                    <h2 className='product-name'>traslator App</h2>
-                    <p className='Project-desc'>
-                        translator application make by html css javascript api and json file and <br />{'-'} 
-                        useing pure javascript
-                    </p>
-                    <div className='project-icons'>
-                    <img src={html} alt='' />
-                        <img src={css} alt='' />
-                        <img src={js} alt='' />
-                    </div>
-                    <div className='btns-data'>
-                        <a target='_blank' href='https://github.com/ashrafmo-1/translate-app' className='btnLink'>src code</a>
-                        <a target='_blank' href='https://ashrafmo-1.github.io/translate-app/' className='btnLink active'>live</a>
+
+
+            <div className="box">
+                <div className="img">
+                    <img src={dash} alt="" />
+                    <div className="linksContent">
+                        <a href="https://github.com/ashrafmo-1/dashboard-by-viteReact" target='_blank'><FaCode /></a>
+                        <a href="https://vite-dashboard-1.netlify.app" target='_blank'><FaRegEye /></a>
                     </div>
                 </div>
-                <div className='project-img'>
-                    <img src={translator} alt=''/>
-                    <div className='bg-project'></div>
-                </div>
-            </div>
-            {/* vite dashboard */}
-            <div className='box right'>
-            <div className='project-img'>
-                    <img src={dash} alt=''/>
-                    <div className='bg-project right'></div>
-            </div>
-                <div className='projectInformation'>
-                    <p className='head-title'>Featured Project</p>
-                    <h2 className='product-name'>Dashboard</h2>
-                    <p className='Project-desc right'>
-                    Dashboard make by vite + react, show toDos tasks and peron information
-                    </p>
-                    <div className='project-icons'>
-                        <img src={vite} alt='' />
-                        <img src={css} alt='' />
-                        <img src={js} alt='' />
-                        <img src={bootstarp} alt='' />
-                    </div>
-                    <div className='btns-data'>
-                        <a target='_blank' href='https://github.com/ashrafmo-1/dashboard-by-viteReact' className='btnLink'>src code</a>
-                        <a target='_blank' href='https://vite-dashboard-1.netlify.app' className='btnLink active'>live</a>
+                <div className="boxContent">
+                    <h3 className="projectName">dashboard</h3>
+                    <p className='projectInfo'>dashboard user time managemet and todo tasks</p>
+                    <div className="projectTools">
+                        <img src={vite} alt="" />
+                        <img src={css} alt="" />
                     </div>
                 </div>
             </div>
-            {/* Github repos */}
-            <div className='box left'>
-                <div className='projectInformation'>
-                    <h2 className='product-name'>get Github repository</h2>
-                    <p className='Project-desc'>
-                        can user type github user name in input field and api wiill get all repositories
-                    </p>
-                    <div className='project-icons'>
-                    <img src={html} alt='' />
-                        <img src={css} alt='' />
-                        <img src={js} alt='' />
-                    </div>
-                    <div className='btns-data'>
-                        <a target='_blank' href='https://github.com/ashrafmo-1/get_Github-repository' className='btnLink'>src code</a>
-                        <a target='_blank' href='https://ashrafmo-1.github.io/get_Github-repository/' className='btnLink active'>live</a>
+
+            <div className="box">
+                <div className="img">
+                    <img src={GithubRepos} alt="" />
+                    <div className="linksContent">
+                        <a href="https://github.com/ashrafmo-1/get_Github-repository" target='_blank'><FaCode /></a>
+                        <a href="https://github.com/ashrafmo-1/get_Github-repository" target='_blank'><FaRegEye /></a>
                     </div>
                 </div>
-                <div className='project-img'>
-                    <img src={GithubRepos} alt=''/>
-                    <div className='bg-project'></div>
+                <div className="boxContent">
+                    <h3 className="projectName">show gitHub reopos</h3>
+                    <p className='projectInfo'>can user type userName in input fuild and the api show all repos</p>
+                    <div className="projectTools">
+                        <img src={html} alt="" />
+                        <img src={css} alt="" />
+                        <img src={js} alt="" />
+                    </div>
                 </div>
             </div>
         </div>
