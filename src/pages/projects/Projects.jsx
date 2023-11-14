@@ -35,7 +35,7 @@ const Projects = () => {
     <div className='projects' id='projects'>
         <h1 className='projectTitle'>Business Gallery</h1>
         <div className="projectFilter">
-            <div className={'box active'}> All </div>
+            <div className={'box'}> All </div>
             <div className={'box'}> html, css </div>
             <div className={'box'} >html, css, js</div>
             <div className={'box'} >React</div>

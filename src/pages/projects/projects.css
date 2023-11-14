@@ -76,12 +76,15 @@
 }
 
 .linksContent a {
-    background-color: #251c31;
+    background-color: #000;
     color: #eee;
     line-height: .6;
     padding: 7px 7px;
     border-radius: 50%;
     font-size: 22px;
+}
+.linksContent a:hover {
+    backdrop-filter: blur(10px);
 }
 
 .porjetsBoxes .box {
