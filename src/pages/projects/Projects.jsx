@@ -9,6 +9,7 @@ import weather from '../../assets/Projects/weather-site.png'
 import translator from '../../assets/Projects/translator.png'
 import dash from '../../assets/Projects/dash.png'
 import GithubRepos from '../../assets/Projects/Github-repos.png'
+import filterProject from '../../assets/Projects/filterProjects.jpg'
 
 import html  from "../../assets/html.svg";
 import css from '../../assets/Rectangle 7.png'
@@ -234,6 +235,26 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="box">
+                <div className="img">
+                    <img src={filterProject} alt="" />
+                    <div className="linksContent">
+                        <a href="https://github.com/ashrafmo-1/get_Github-repository" target='_blank'><FaCode /></a>
+                        <a href="https://ashrafmo-1.github.io/get_Github-repository/" target='_blank'><FaRegEye /></a>
+                    </div>
+                </div>
+                <div className="boxContent">
+                    <h3 className="projectName">filter projects</h3>
+                    <p className='projectInfo'>click on btn project to show you need</p>
+                    <div className="projectTools">
+                        <img src={html} alt="" />
+                        <img src={css} alt="" />
+                        <img src={js} alt="" />
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     )
