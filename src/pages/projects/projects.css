@@ -10,8 +10,8 @@
     font-weight: 400;
     line-height: 31px;
     letter-spacing: 0.48px;
-    max-width: 50%;
-    margin: auto;
+    max-width: 70%;
+    margin: 20px auto;
     border: 1px solid #eee;
     padding: 8px 4px;
     border-radius: 20px;
@@ -94,7 +94,7 @@
 }
 
 .porjetsBoxes .box:hover {
-    box-shadow: rgb(0, 0, 59) 0px 0px 0px 2px inset, rgb(255, 255, 255) 5px -5px 0px -3px, rgb(255, 85, 85) 5px -5px;
+    box-shadow: rgb(0, 0, 59) 0px 0px 0px 2px inset, rgb(255, 255, 255) 2px -2px 0px -1px, rgb(255, 85, 85) 3px -3px;
 }
 
 .porjetsBoxes .boxContent {
