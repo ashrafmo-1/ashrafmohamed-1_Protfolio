@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  user-select: none;
 }
 :root{
   --bgc: #11071F;
@@ -23,6 +22,21 @@ body {
   scroll-behavior: smooth;
 }
 
+/* width of scrollBar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(62, 0, 248);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7127BA;
+  border-radius: 18px;
+}
+
+/* ============================= */
 @media(max-width:767px) {
   .Container {
     width: 95%;
