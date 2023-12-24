@@ -59,3 +59,28 @@ body {
   align-items: center;
   cursor: pointer;
 }
+
+.testimonials{
+  text-align: center;
+  .img img{
+    width: 160px;
+  }
+  .boxes .box {
+    width: 300px;
+    background-color: #7127BA;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    .text{
+      text-align: center;
+      .adderss {
+        color: #eee;
+        margin-bottom: 10px;
+      }
+      p {
+        color: #eee;
+        font-size: 14px;
+        line-height: 1.4;
+      }
+    }
+  }
+}

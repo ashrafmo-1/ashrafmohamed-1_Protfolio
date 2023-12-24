@@ -8,6 +8,7 @@ import Aboutus from './about/Aboutus';
 import Contact from './contact/Contact';
 import Footer from './footer/Footer';
 import { useState, useEffect } from 'react';import { FaCircleUp } from "react-icons/fa6";
+import Testimonials from './testmoniols/Testimonials';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
         <Aboutus />
         <Skills />
         <Projects />
+        <Testimonials />
         <Contact />
         <Footer />
       </div>
