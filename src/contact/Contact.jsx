@@ -1,21 +1,22 @@
 import './contact.css'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
 
 const Contact = () => {
 
 const form = useRef();
 // sent email by mailJs
 const sendEmail = (e) => {
+
   e.preventDefault();
   // information account emailJs
-  emailjs.sendForm('service_2jd6ttc', 'template_3q4wxrp', form.current, 'PmARZnCEW1lngVqiK')
+    emailjs.sendForm('service_2jd6ttc', 'template_3q4wxrp', form.current, 'PmARZnCEW1lngVqiK')
     .then((result) => {
           Swal.fire(
             'Email sent successfully',
             'we well calling you in the email',
-            'success'
+            'success',
           )
     }, (error) => {
       Swal.fire({
@@ -64,7 +65,7 @@ const sendEmail = (e) => {
       </div>
       </div>
   </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
