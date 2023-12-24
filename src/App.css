@@ -65,7 +65,12 @@ body {
   .img img{
     width: 160px;
   }
-  .boxes .box {
+  .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .box {
     width: 300px;
     background-color: #7127BA;
     padding-bottom: 20px;
@@ -82,5 +87,6 @@ body {
         line-height: 1.4;
       }
     }
+  }
   }
 }
