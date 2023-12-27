@@ -21,7 +21,7 @@ const Home = () => {
           </span> </p>
       <span className='head-jop'>
         <Typewriter
-            words={['front end developmer', 'javascript developmer', 'typescript developmer',]}
+            words={['front end Development', 'javascript Development', 'typescript Development',]}
             loop={12}
             cursor
             cursorStyle='_'
