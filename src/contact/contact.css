@@ -44,11 +44,12 @@
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.3px;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
 .callMe .contactLink {
-color: #fff;
+    color: #fff;
+    margin-bottom: 35px;
 }
 
 .contentContact.form {

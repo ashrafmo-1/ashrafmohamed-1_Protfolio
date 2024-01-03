@@ -36,7 +36,7 @@ const sendEmail = (e) => {
         I'm currently looking to join a cross-functional team that values improving people's lives
         through accessible design. or have a project in mind? Let's connect.
         </p>
-        <a href='./' className='contactLink'>aashraf9919@gmail.com</a>
+        <a href='mailto:aashraf9919@gmail.com' className='contactLink'>aashraf9919@gmail.com</a>
         <p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d13140.299547951547!2d31.80017966288834!3d31.248168895946602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDE0JzQ2LjgiTiAzMcKwNDgnMzkuMyJF!5e0!3m2!1sar!2seg!4v1702154454899!5m2!1sar!2seg" width="300" height="300" style={{border: '0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </p>
