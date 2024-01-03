@@ -8,7 +8,7 @@ color: #FFF;
 font-size: 50px;
 font-weight: 400;
 letter-spacing: 1px;
-margin-bottom: 10px;
+margin-bottom: 30px;
 }
 @media(max-width: 991px) {
 .aboute .jopTItle{
@@ -21,19 +21,10 @@ margin-bottom: 10px;
 }
 }
 
-.aboute .cuurentJop{
-max-width: 573px;
-color: #FFF;
-font-family: Preahvihear;
-font-size: 21px;
-font-weight: 400;
-letter-spacing: 0.42px;
-margin-bottom: 40px;
-}
 @media(max-width: 767px) {
-.aboute .cuurentJop{
-    font-size: 18px;
-}
+    .aboute .cuurentJop{
+        font-size: 18px;
+    }
 }
 
 .aboute .disc{
