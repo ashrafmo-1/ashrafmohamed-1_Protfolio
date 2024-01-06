@@ -12,8 +12,9 @@ const Testimonials = () => {
                         <img src={avatar} alt="" />
                     </div>
                     <div className="text">
-                        <h2 className="adderss">Ahmed eltohamy</h2>
+                        <h2 className="adderss">Alaa mohamed</h2>
                         <p>perfect mentor programming i am learn javaScript from ASH-Education.</p>
+                        <p className='timemessage'>7/1/2024</p>
                     </div>
                 </div>
             </div>
