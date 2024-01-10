@@ -35,6 +35,10 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 0.44px;
 }
+
+.instructor{
+    margin-top: 10px;
+}
 @media(max-width: 767px) {
 .aboute .disc{
     font-size: 17px;

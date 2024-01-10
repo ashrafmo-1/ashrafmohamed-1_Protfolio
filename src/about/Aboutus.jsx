@@ -8,6 +8,7 @@ const Aboutus = () => {
     Software front end developer, functioning in the industry for 1+ years now.
     I make meaningful and delightful digital products that create an equilibrium
     between user needs and business goals.
+    <p className='instructor'>I am now working as a JavaScript programming basics instructor.</p>
     </p>
   </div>
   )
