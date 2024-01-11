@@ -87,17 +87,17 @@ body {
         font-size: 14px;
         line-height: 1.4;
       }
-      .timemessage{
-        text-align: start;
-        margin: 4px auto;
-        padding: 4px;
-        background-color: #fff;
-        color: #11071F;
-        width: fit-content;
-        border-radius: 8px;
-        font-weight: bold;
+        .timemessage{
+          text-align: start;
+          margin: 4px auto;
+          padding: 4px;
+          background-color: #fff;
+          color: #11071F;
+          width: fit-content;
+          border-radius: 8px;
+          font-weight: bold;
+        }
       }
     }
-  }
   }
 }

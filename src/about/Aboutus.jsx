@@ -3,6 +3,7 @@ import './about.css'
 const Aboutus = () => {
   return (
     <div className='aboute' id='aboute'>
+      <h1 className='about-title '>About</h1>
     <h1 className='jopTItle'>I'm a Software front end developer.| </h1>
     <p className='disc'>
     Software front end developer, functioning in the industry for 1+ years now.
