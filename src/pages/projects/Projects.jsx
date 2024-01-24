@@ -33,8 +33,8 @@ const Projects = () => {
                 <div className="img">
                     <img src={edu} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/ASH-EDUCATION" target='_blank'><FaCode /></a>
-                        <a href="https://ashrafmo-1.github.io/ASH-EDUCATION/" target='_blank'><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/ASH-EDUCATION" ><FaCode /></a>
+                        <a href="https://ashrafmo-1.github.io/ASH-EDUCATION/" ><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
@@ -51,8 +51,8 @@ const Projects = () => {
                 <div className="img">
                     <img src={bondi} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/bondi-site" target='_blank'><FaCode /></a>
-                        <a href="https://ashrafmo-1.github.io/bondi-site/" target='_blank'><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/bondi-site" ><FaCode /></a>
+                        <a href="https://ashrafmo-1.github.io/bondi-site/" ><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
@@ -70,8 +70,8 @@ const Projects = () => {
                 <div className="img">
                     <img src={ecommerce} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/E-commerce_products-management_react.js" target='_blank'><FaCode /></a>
-                        <a href="https://a-m-productsmanagment.web.app" target='_blank'><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/E-commerce_products-management_react.js" ><FaCode /></a>
+                        <a href="https://a-m-productsmanagment.web.app" ><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
@@ -92,8 +92,8 @@ const Projects = () => {
                 <div className="img">
                     <img src={customize} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/special-webSite-full-responsive" target='_blank'><FaCode /></a>
-                        <a href="https://ashrafmo-1.github.io/special-webSite-full-responsive/" target='_blank'><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/special-webSite-full-responsive" ><FaCode /></a>
+                        <a href="https://ashrafmo-1.github.io/special-webSite-full-responsive/" ><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
@@ -111,8 +111,8 @@ const Projects = () => {
                 <div className="img">
                     <img src={managmentManagment} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/crud-products-app" target='_blank'><FaCode /></a>
-                        <a href="https://a-m-productsmanagment.web.app/" target='_blank'><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/crud-products-app" ><FaCode /></a>
+                        <a href="https://a-m-productsmanagment.web.app/" ><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
@@ -133,8 +133,8 @@ const Projects = () => {
                 <div className="img">
                     <img src={calc} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/Calculator-react-Js" target='_blank'><FaCode /></a>
-                        <a href="https://simple-calculator-11.web.app/" target='_blank'><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/Calculator-react-Js" ><FaCode /></a>
+                        <a href="https://simple-calculator-11.web.app/" ><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
@@ -151,8 +151,8 @@ const Projects = () => {
                 <div className="img">
                     <img src={weather} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/weather" target='_blank'><FaCode /></a>
-                        <a href="https://ashrafmo-1.github.io/weather/" target='_blank'><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/weather" ><FaCode /></a>
+                        <a href="https://ashrafmo-1.github.io/weather/" ><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
@@ -170,8 +170,8 @@ const Projects = () => {
                 <div className="img">
                     <img src={translator} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/translate-app" target='_blank'><FaCode /></a>
-                        <a href="https://ashrafmo-1.github.io/translate-app/" target='_blank'><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/translate-app" ><FaCode /></a>
+                        <a href="https://ashrafmo-1.github.io/translate-app/" ><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
@@ -190,8 +190,8 @@ const Projects = () => {
                 <div className="img">
                     <img src={dash} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/dashboard-by-viteReact" target='_blank'><FaCode /></a>
-                        <a href="https://vite-dashboard-1.netlify.app" target='_blank'><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/dashboard-by-viteReact" ><FaCode /></a>
+                        <a href="https://vite-dashboard-1.netlify.app" ><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
@@ -208,8 +208,8 @@ const Projects = () => {
                 <div className="img">
                     <img src={GithubRepos} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/get_Github-repository" target='_blank'><FaCode /></a>
-                        <a href="https://ashrafmo-1.github.io/get_Github-repository/" target='_blank'><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/get_Github-repository" ><FaCode /></a>
+                        <a href="https://ashrafmo-1.github.io/get_Github-repository/" ><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
@@ -227,8 +227,8 @@ const Projects = () => {
                 <div className="img">
                     <img src={filterProject} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/projects_filter" target='_blank'><FaCode /></a>
-                        <a href="https://projects-filter.vercel.app/" target='_blank'><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/projects_filter" ><FaCode /></a>
+                        <a href="https://projects-filter.vercel.app/"><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
