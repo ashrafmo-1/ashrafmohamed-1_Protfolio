@@ -209,7 +209,7 @@ const Projects = () => {
                     <img src={GithubRepos} alt="" />
                     <div className="linksContent">
                         <a href="https://github.com/ashrafmo-1/get_Github-repository" target='_blank'><FaCode /></a>
-                        <a href="https://github.com/ashrafmo-1/get_Github-repository" target='_blank'><FaRegEye /></a>
+                        <a href="https://ashrafmo-1.github.io/get_Github-repository/" target='_blank'><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
@@ -227,13 +227,14 @@ const Projects = () => {
                 <div className="img">
                     <img src={filterProject} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/get_Github-repository" target='_blank'><FaCode /></a>
-                        <a href="https://ashrafmo-1.github.io/get_Github-repository/" target='_blank'><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/projects_filter" target='_blank'><FaCode /></a>
+                        <a href="https://projects-filter.vercel.app/" target='_blank'><FaRegEye /></a>
                     </div>
                 </div>
                 <div className="boxContent">
                     <h3 className="projectName">filter projects</h3>
                     <p className='projectInfo'>click on btn project to show you need</p>
+                    <p className='projectInfo' style={{color: 'red'}}>open on desktop only</p>
                     <div className="projectTools">
                         <img src={html} alt="" />
                         <img src={css} alt="" />
