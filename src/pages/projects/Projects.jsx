@@ -1,7 +1,7 @@
 import './projects.css'
 import edu from '../../assets/Projects/Asheducation.png'
 import bondi from '../../assets/Projects/bondi.png'
-import ecommerce from '../../assets/Projects/e-commerce.png'
+import ecommerce from '../../assets/Projects/e-commerce.jpg'
 import customize from '../../assets/Projects/page customize.png'
 import managmentManagment from '../../assets/Projects/products managment.png'
 import calc from '../../assets/Projects/proj-10.png'
@@ -70,8 +70,8 @@ const Projects = () => {
                 <div className="img">
                     <img src={ecommerce} alt="" />
                     <div className="linksContent">
-                        <a href="https://github.com/ashrafmo-1/E-commerce_products-management_react.js" ><FaCode /></a>
-                        <a href="https://a-m-productsmanagment.web.app" ><FaRegEye /></a>
+                        <a href="https://github.com/ashrafmo-1/Dragon_Shop"> <FaCode /> </a>
+                        <a href="https://dragon-shop.vercel.app/"> <FaRegEye /> </a>
                     </div>
                 </div>
                 <div className="boxContent">
