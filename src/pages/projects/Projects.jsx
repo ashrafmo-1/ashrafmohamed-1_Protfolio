@@ -11,7 +11,7 @@ import dash from '../../assets/Projects/dash.png'
 import GithubRepos from '../../assets/Projects/Github-repos.png'
 import filterProject from '../../assets/Projects/filterProjects.jpg'
 import TEXT_TO_SPEAK from "../../assets/Projects/TEXT TO SPEAK.jpg";
-
+// sklls
 import html  from "../../assets/html.svg";
 import css from '../../assets/Rectangle 7.png'
 import react from '../../assets/Rectangle 2.png'
