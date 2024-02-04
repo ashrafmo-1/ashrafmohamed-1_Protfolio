@@ -10,6 +10,7 @@ import translator from '../../assets/Projects/translator.png'
 import dash from '../../assets/Projects/dash.png'
 import GithubRepos from '../../assets/Projects/Github-repos.png'
 import filterProject from '../../assets/Projects/filterProjects.jpg'
+import TEXT_TO_SPEAK from "../../assets/Projects/TEXT TO SPEAK.jpg";
 
 import html  from "../../assets/html.svg";
 import css from '../../assets/Rectangle 7.png'
@@ -245,7 +246,7 @@ const Projects = () => {
 
             <div className="box">
                 <div className="img">
-                    <img src={filterProject} alt="" />
+                    <img src={TEXT_TO_SPEAK} alt="" />
                     <div className="linksContent">
                         <a href="https://ashrafmo-1.github.io/text-to-speak/" ><FaCode /></a>
                         <a href="https://github.com/ashrafmo-1/text-to-speak"><FaRegEye /></a>
