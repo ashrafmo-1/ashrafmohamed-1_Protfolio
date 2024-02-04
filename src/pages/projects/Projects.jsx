@@ -243,6 +243,25 @@ const Projects = () => {
                 </div>
             </div>
 
+            <div className="box">
+                <div className="img">
+                    <img src={filterProject} alt="" />
+                    <div className="linksContent">
+                        <a href="https://ashrafmo-1.github.io/text-to-speak/" ><FaCode /></a>
+                        <a href="https://github.com/ashrafmo-1/text-to-speak"><FaRegEye /></a>
+                    </div>
+                </div>
+                <div className="boxContent">
+                    <h3 className="projectName">TEXT TO SPEAK</h3>
+                    <p className='projectInfo'>You can write anything inside the field and the robot will say what you wrote</p>
+                    <div className="projectTools">
+                        <img src={html} alt="" />
+                        <img src={css} alt="" />
+                        <img src={js} alt="" />
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     )
