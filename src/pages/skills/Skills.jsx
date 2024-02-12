@@ -1,9 +1,9 @@
-import { FaHtml5 } from "react-icons/fa6";
-import figma from '../../assets/Rectangle 1.png'
-import react from '../../assets/Rectangle 2.png'
-import css from '../../assets/Rectangle 7.png'
-import js from '../../assets/Rectangle 6.png'
-import redux from '../../assets/Rectangle 8.png'
+import html from "../../assets/html.png";
+import css from '../../assets/css-3.png';
+import js from '../../assets/js.png';
+import react from '../../assets/science.png';
+import figma from '../../assets/figma.png';
+import redux from '../../assets/icons8-redux-48.png'
 import next from '../../assets/Rectangle 9.png'
 import git from '../../assets/git.svg'
 import cmd from '../../assets/terminal.svg'
@@ -24,7 +24,7 @@ const Skills = () => {
     <p>'</p>
     <div className='skills-boxes'>
     <div className='box html'>
-        <FaHtml5 />
+        <img src={html} alt='' />
       </div>
       <div className='box'>
         <img src={css} alt='' />

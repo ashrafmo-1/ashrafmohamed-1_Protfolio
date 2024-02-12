@@ -12,11 +12,11 @@ import GithubRepos from '../../assets/Projects/Github-repos.png'
 import filterProject from '../../assets/Projects/filterProjects.jpg'
 import TEXT_TO_SPEAK from "../../assets/Projects/TEXT TO SPEAK.jpg";
 // sklls
-import html  from "../../assets/html.svg";
-import css from '../../assets/Rectangle 7.png'
-import react from '../../assets/Rectangle 2.png'
-import js from '../../assets/Rectangle 6.png'
-import redux from '../../assets/Rectangle 8.png'
+import html from "../../assets/html.png";
+import css from '../../assets/css-3.png';
+import js from '../../assets/js.png';
+import react from '../../assets/science.png';
+import redux from '../../assets/icons8-redux-48.png'
 import bootstarp from '../../assets/bootstrap.svg'
 import vite from '../../assets/vite-seeklogo.com.svg'
 
