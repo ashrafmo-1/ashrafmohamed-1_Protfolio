@@ -1,5 +1,6 @@
 import html from "../../assets/html.png";
 import css from '../../assets/css-3.png';
+import sass from '../../assets/sass.png';
 import js from '../../assets/js.png';
 import react from '../../assets/science.png';
 import figma from '../../assets/figma.png';
@@ -28,6 +29,9 @@ const Skills = () => {
       </div>
       <div className='box'>
         <img src={css} alt='' />
+      </div>
+      <div className='box'>
+        <img src={sass} alt='' />
       </div>
       <div className='box'>
         <img src={bootstarp} alt='' />
