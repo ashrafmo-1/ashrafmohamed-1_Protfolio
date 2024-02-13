@@ -47,7 +47,7 @@ body {
 
 .scrollToTop{
   position: fixed;
-  bottom: 20px;
+  bottom: 100px;
   right: 20px;
   padding: 9px;
   font-size: 25px;

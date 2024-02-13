@@ -27,8 +27,8 @@ function App() {
   }
   return (
     <div>
-      <div className='Container'>
         <Navgation />
+      <div className='Container'>
         <Home />
         <Aboutus />
         <Skills />

@@ -4,17 +4,16 @@ import sass from '../../assets/sass.png';
 import js from '../../assets/js.png';
 import react from '../../assets/science.png';
 import figma from '../../assets/figma.png';
-import redux from '../../assets/icons8-redux-48.png'
-import next from '../../assets/Rectangle 9.png'
-import git from '../../assets/git.svg'
-import cmd from '../../assets/terminal.svg'
-import githup from '../../assets/github.svg'
-import bootstarp from '../../assets/bootstrap.svg'
-import slack from '../../assets/slack.svg'
-import notion from '../../assets/notion.svg'
-import firebase from '../../assets/firebase.svg'
-import vite from '../../assets/vite-seeklogo.com.svg'
-import './skils.css'
+import redux from '../../assets/icons8-redux-48.png';
+import next from '../../assets/Rectangle 9.png';
+import git from '../../assets/git.svg';
+import cmd from '../../assets/terminal.svg';
+import githup from '../../assets/github.svg';
+import bootstarp from '../../assets/bootstrap.svg';
+import slack from '../../assets/slack.svg';
+import notion from '../../assets/notion.svg';
+import vite from '../../assets/vite-seeklogo.com.svg';
+import './skils.css';
 
 const Skills = () => {
   return (
@@ -69,11 +68,8 @@ const Skills = () => {
       <div className='box'>
         <img src={notion} alt='' />
       </div>
-      <div className='box'>
-        <img src={firebase} alt='' />
-      </div>
     </div>
-  </div>
+    </div>
   )
 }
 

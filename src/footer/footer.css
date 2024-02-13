@@ -3,14 +3,36 @@ text-align: center;
 font-size: 22px;
 color: #eee;
 margin: 150px 0px 10px 0px;
+
+.top {
+    margin-bottom: 30px;
+    border-top: 1px solid #eee;
 }
-@media(max-width: 460px) {
-.footer{
-    font-size: 18px;
+.description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .copy-right {
+        font-size: 22px;
+    }
 }
 }
-@media(max-width: 375px) {
-.footer{
-    font-size: 14px;
+
+@media(max-width:710px) {
+    .description {
+        flex-direction: column;
+    }
 }
+@media(max-width:520px) {
+    .copy-right {
+        font-size: 18px;
+    }
 }
