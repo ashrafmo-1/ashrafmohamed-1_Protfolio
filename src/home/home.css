@@ -7,6 +7,7 @@ p{
     justify-content: space-around;
     align-items: center;
     gap: 20px;
+    margin-top: 80px;
   }
   
   @media(max-width: 767px) {

@@ -1,16 +1,17 @@
-import './projects.css'
-import edu from '../../assets/Projects/Asheducation.png'
-import bondi from '../../assets/Projects/bondi.png'
-import ecommerce from '../../assets/Projects/e-commerce.jpg'
-import customize from '../../assets/Projects/page customize.png'
-import managmentManagment from '../../assets/Projects/products managment.png'
-import calc from '../../assets/Projects/proj-10.png'
-import weather from '../../assets/Projects/weather-site.png'
-import translator from '../../assets/Projects/translator.png'
-import dash from '../../assets/Projects/dash.png'
-import GithubRepos from '../../assets/Projects/Github-repos.png'
-import filterProject from '../../assets/Projects/filterProjects.jpg'
+import './projects.css';
+import edu from '../../assets/Projects/Asheducation.png';
+import bondi from '../../assets/Projects/bondi.png';
+import ecommerce from '../../assets/Projects/e-commerce.jpg';
+import customize from '../../assets/Projects/page customize.png';
+import managmentManagment from '../../assets/Projects/products managment.png';
+import calc from '../../assets/Projects/proj-10.png';
+import weather from '../../assets/Projects/weather-site.png';
+import translator from '../../assets/Projects/translator.png';
+import dash from '../../assets/Projects/dash.png';
+import GithubRepos from '../../assets/Projects/Github-repos.png';
+import filterProject from '../../assets/Projects/filterProjects.jpg';
 import TEXT_TO_SPEAK from "../../assets/Projects/TEXT TO SPEAK.jpg";
+import todotasks from "../../assets/Projects/to do.jpg";
 // sklls
 import html from "../../assets/html.png";
 import css from '../../assets/css-3.png';
@@ -19,6 +20,7 @@ import react from '../../assets/science.png';
 import redux from '../../assets/icons8-redux-48.png'
 import bootstarp from '../../assets/bootstrap.svg'
 import vite from '../../assets/vite-seeklogo.com.svg'
+import ts from '../../assets/typescript.png'
 
 
 import { FaRegEye } from "react-icons/fa6"
@@ -259,6 +261,25 @@ const Projects = () => {
                         <img src={html} alt="" />
                         <img src={css} alt="" />
                         <img src={js} alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="box">
+                <div className="img">
+                    <img src={todotasks} alt="" />
+                    <div className="linksContent">
+                        <a href="https://github.com/ashrafmo-1/to_do_tasks" ><FaCode /></a>
+                        <a href="https://to-do-tasks-wine.vercel.app/"><FaRegEye /></a>
+                    </div>
+                </div>
+                <div className="boxContent">
+                    <h3 className="projectName">To Do Tasks</h3>
+                    <p className='projectInfo'>add your tasks and remove this task </p>
+                    <div className="projectTools">
+                        <img src={html} alt="" />
+                        <img src={css} alt="" />
+                        <img src={ts} alt="" />
                     </div>
                 </div>
             </div>
