@@ -21,6 +21,7 @@ import redux from '../../assets/icons8-redux-48.png'
 import bootstarp from '../../assets/bootstrap.svg'
 import vite from '../../assets/vite-seeklogo.com.svg'
 import ts from '../../assets/typescript.png'
+import sass from '../../assets/sass.png';
 
 
 import { FaRegEye } from "react-icons/fa6"
@@ -84,6 +85,7 @@ const Projects = () => {
                     <p className='projectInfo' style={{color: 'red'}}>We are still working on the creation and development</p>
                     <div className="projectTools">
                         <img src={css} alt="" />
+                        <img src={sass} alt="" />
                         <img src={bootstarp} alt="" />
                         <img src={react} alt="" />
                         <img src={js} alt="" />
@@ -280,7 +282,7 @@ const Projects = () => {
                     <p className='projectInfo'>add your tasks and remove this task </p>
                     <div className="projectTools">
                         <img src={html} alt="" />
-                        <img src={css} alt="" />
+                        <img src={sass} alt="" />
                         <img src={ts} alt="" />
                     </div>
                 </div>
