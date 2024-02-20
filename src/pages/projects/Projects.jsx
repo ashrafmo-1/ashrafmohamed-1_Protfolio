@@ -87,6 +87,7 @@ const Projects = () => {
                         <img src={bootstarp} alt="" />
                         <img src={react} alt="" />
                         <img src={js} alt="" />
+                        <img src={ts} alt="" />
                         <img src={redux} alt="" />
                     </div>
                 </div>
