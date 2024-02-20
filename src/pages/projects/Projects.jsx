@@ -78,9 +78,10 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="boxContent">
-                    <h3 className="projectName">full ecommerce</h3>
+                    <h3 className="projectName">dragon store</h3>
                     <p className='projectInfo'>can user signUp by user and in site products management</p>
-                    <p className='projectInfo' style={{color: 'red'}}>backEnd wirking local only</p>
+                    <p className='projectInfo' style={{color: 'red', marginBottom: '10px'}}>backEnd wirking local only</p>
+                    <p className='projectInfo' style={{color: 'red'}}>We are still working on the creation and development</p>
                     <div className="projectTools">
                         <img src={css} alt="" />
                         <img src={bootstarp} alt="" />
