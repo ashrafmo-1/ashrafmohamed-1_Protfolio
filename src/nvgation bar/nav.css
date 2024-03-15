@@ -1,101 +1,101 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background: #1a0b2e9f;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border-radius: 10px;
-    position: fixed;
-    width: 80%;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 20px;
-    margin: auto;
-    z-index: 9;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #1a0b2e9f;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  position: fixed;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+  margin: auto;
+  z-index: 9;
+}
+
+.nav-title {
+  color: #fff;
+  font-size: 25px;
+}
+.nav-title span {
+  color: #7127ba;
+  font-size: 30px;
+}
+
+@media (max-width: 650px) {
   .nav-title {
-    color: #fff;
-    font-size: 25px;
+    font-size: 20px;
   }
   .nav-title span {
-    color: #7127BA;
-    font-size: 30px;
+    font-size: 25px;
   }
-  
-  @media(max-width:650px) {
-    .nav-title {
-      font-size: 20px;
-    }
-    .nav-title span {
-      font-size: 25px;
-    }
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  color: #fff;
+  z-index: 99999;
+}
+@media (max-width: 650px) {
+  nav {
+    position: absolute;
+    top: -190px;
+    z-index: 99999;
   }
-  
-  nav{
+  .active {
     display: flex;
-    gap: 20px;
-    font-size: 16px;
-    color: #fff;
-    z-index: 99999;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    background: #1a0b2e;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 15px;
+    border-radius: 15px;
+    transition: 0.4s;
+    z-index: 999999;
   }
-  @media(max-width: 650px) {
-    nav{
-      position: absolute;
-      top: -190px;
-      z-index: 99999;
-    }
-    .active{
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 90px;
-      background: #1A0B2E;
-      width: 90%;
-      left: 50%;
-      transform: translateX(-50%);
-      padding: 20px 15px;
-      border-radius: 15px;
-      transition: .4s;
-      z-index: 999999;
-    }
-    .navgation.active a{
-      background-color: #7127BA;
-      padding: 4px 10px;
-      font-size: 22px;
-      border-radius: 6px;
-    }
-    .navgation.active a:hover{
-      background-color: var(--bgc)
-    }
+  .navgation.active a {
+    background-color: #7127ba;
+    padding: 4px 10px;
+    font-size: 22px;
+    border-radius: 6px;
   }
-  
-  nav a {
-    cursor: pointer;
-    transition: .6s;
-    z-index: 99999;
+  .navgation.active a:hover {
+    background-color: var(--bgc);
   }
-  
-  nav a:hover{
-    color: #7127BA;
-  }
-  
+}
+
+nav a {
+  cursor: pointer;
+  transition: 0.6s;
+  z-index: 99999;
+}
+
+nav a:hover {
+  color: #7127ba;
+}
+
+.toggleBar {
+  background-color: rgba(37, 28, 49, 1);
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  padding: 3px;
+  cursor: pointer;
+}
+@media (min-width: 650px) {
   .toggleBar {
-    background-color: rgba(37, 28, 49, 1);
-    color: #fff;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    padding: 3px;
-    cursor: pointer;
+    display: none;
   }
-  @media(min-width: 650px) {
-    .toggleBar{
-      display: none;
-    }
-  }
+}
