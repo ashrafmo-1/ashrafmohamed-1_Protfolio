@@ -13,8 +13,14 @@ const Theme = () => {
   };
 
   useEffect(() => {
+    window.localStorage.setItem("mood", theme);
     document.body.className = theme;
-  }, [theme])
+  }, [theme]);
+
+  const _theme = window.localStorage.getItem("mood") || "light";
+  useEffect(() => {
+    settheme(_theme);
+  }, []);
 
   return (
     <div className="theme" onClick={() => toggle_theme()}>

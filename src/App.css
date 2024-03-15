@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  user-select:;
 }
 
 :root {
@@ -11,6 +10,7 @@
     --second-color: #7127ba;
     --text: #fff;
   }
+
   .light {
     --bgc: rgb(106, 0, 255);
     --second-color: hsl(270, 11%, 71%);
@@ -22,7 +22,6 @@
   background-color: var(--text);
   color: var(--bgc);
 }
-
 
 body {
   background-color: var(--bgc);
