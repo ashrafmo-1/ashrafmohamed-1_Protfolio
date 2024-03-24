@@ -1,4 +1,4 @@
-import my from "../assets/image 1.png";
+import my from "./me.jpg";
 import Theme from "../themes/Theme";
 import "./home.css";
 import { Typewriter } from "react-simple-typewriter";

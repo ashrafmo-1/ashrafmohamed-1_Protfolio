@@ -26,11 +26,6 @@ p {
   width: 385px;
   height: 431px;
   border-radius: 431px;
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    #763cac 0%,
-    rgba(50, 15, 133, 0) 100%
-  );
   position: relative;
 }
 @media (max-width: 991px) {
@@ -41,6 +36,7 @@ p {
 }
 @media (max-width: 767px) {
   .head-image {
+    margin-top: 20px;
     width: 270px;
     height: 260px;
     z-index: -1;
@@ -54,16 +50,13 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    #763cac 0%,
-    rgba(50, 15, 133, 0) 100%
-  );
+  box-shadow: 0px 0px 300px 0px rgba(133,39,186,0.75);
+  border-radius: 14px;
 }
 @media (max-width: 767px) {
   .head-image .my-image {
-    width: 125px;
-    height: 180px;
+    width: 225px;
+    height: 280px;
   }
 }
 .head-name {
