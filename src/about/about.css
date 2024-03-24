@@ -1,10 +1,7 @@
-/* start aboute */
-.aboute{
-    margin: 100px 0px;
-}
-
-.aboute .about-title {
-    color: #FFF;
+.aboute {
+  margin: 100px 0px;
+  .about-title {
+    color: #fff;
     text-align: center;
     font-size: 24px;
     font-weight: 400;
@@ -15,59 +12,74 @@
     border: 1px solid #eee;
     padding: 8px 4px;
     border-radius: 20px;
+  }
+  .information {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    .my-image {
+      width: 270px;
+    }
+    > .info {
+      .jopTItle {
+        max-width: 674px;
+        color: #fff;
+        font-size: 50px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+      }
+      .disc {
+        max-width: 892px;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.44px;
+      }
+      .instructor {
+        margin-top: 10px;
+      }
+    }
+  }
 }
-@media(max-width: 991px) {
-.aboute .about-title {
+@media (max-width: 1400px) {
+  .jopTItle {
+    font-size: 40px !important;
+  }
+}
+@media (max-width: 991px) {
+  .about-title {
     font-size: 20px;
     line-height: 22px;
+  }
+  .jopTItle {
+    font-size: 40px;
+  }
 }
-}
-@media(max-width: 767px) {
-.aboute .about-title {
+@media (max-width: 767px) {
+  .about-title {
     font-size: 14px;
     line-height: 18px;
-}
-}
-
-.aboute .jopTItle{
-max-width: 674px;
-color: #FFF;
-font-size: 50px;
-font-weight: 400;
-letter-spacing: 1px;
-margin-bottom: 30px;
-}
-@media(max-width: 991px) {
-.aboute .jopTItle{
-    font-size: 40px;
-}
-}
-@media(max-width: 767px) {
-.aboute .jopTItle{
+  }
+  .jopTItle {
     font-size: 30px;
-}
-}
-
-@media(max-width: 767px) {
-    .aboute .cuurentJop{
-        font-size: 18px;
-    }
-}
-
-.aboute .disc{
-max-width: 892px;
-color: #FFF;
-font-size: 22px;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.44px;
-}
-
-.instructor{
-    margin-top: 10px;
-}
-@media(max-width: 767px) {
-.aboute .disc{
+  }
+  .cuurentJop {
+    font-size: 18px;
+  }
+  .disc {
     font-size: 17px;
+  }
 }
+@media (max-width: 691px) {
+  .information {
+    flex-direction: column;
+    .my-image {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
 }

@@ -1,4 +1,3 @@
-import my from "./me.jpg";
 import Theme from "../themes/Theme";
 import "./home.css";
 import { Typewriter } from "react-simple-typewriter";
@@ -6,9 +5,6 @@ import { Typewriter } from "react-simple-typewriter";
 const Home = () => {
   return (
     <div className="landing" id="#home">
-      <div className="head-image">
-        <img className="my-image" src={my} alt="" />
-      </div>
       <div className="content">
         <p className="head-name">
           Hello! I'am
@@ -31,7 +27,7 @@ const Home = () => {
               "javascript Development",
               "programming basics instructor.",
             ]}
-            loop={12}
+            loop={5}
             cursor
             cursorStyle="_"
             typeSpeed={70}
