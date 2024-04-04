@@ -31,29 +31,6 @@ const Projects = () => {
     <div className="projects" id="projects">
       <h1 className="projectTitle">Business Gallery</h1>
       <div className="porjetsBoxes">
-        <div className="box">
-          <div className="img">
-            <img src={edu} alt="" />
-            <div className="linksContent">
-              <a href="https://github.com/ashrafmo-1/ASH-EDUCATION">
-                <FaCode />
-              </a>
-              <a href="https://ashrafmo-1.github.io/ASH-EDUCATION/">
-                <FaRegEye />
-              </a>
-            </div>
-          </div>
-          <div className="boxContent">
-            <h3 className="projectName">ash education</h3>
-            <p className="projectInfo">
-              can you get any tocnologe learn in this site
-            </p>
-            <div className="projectTools">
-              <img src={html} alt="" />
-              <img src={css} alt="" />
-            </div>
-          </div>
-        </div>
 
         <div className="box">
           <div className="img">

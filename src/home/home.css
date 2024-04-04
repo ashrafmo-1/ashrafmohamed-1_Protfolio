@@ -60,7 +60,7 @@ p {
   .landing {
     text-align: center;
     .head-name {
-      font-size: 30px !important;
+      font-size: 22px !important;
       span {
         font-size: 30px;
       }
