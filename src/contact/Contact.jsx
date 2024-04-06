@@ -13,29 +13,38 @@ const [message, setmessage] = useState("");
 const form = useRef();
 // sent email by mailJs
 const sendEmail = (e) => {
-  
   e.preventDefault();
   // information account emailJs
-  
-  
-  name !== "" && email !== "" && message !== "" &&
+  if (name !== "" && email !== "" && message !== "") {
     emailjs.sendForm('service_2jd6ttc', 'template_3q4wxrp', form.current, 'PmARZnCEW1lngVqiK')
-    .then((result) => {
-          Swal.fire(
-            'Email sent successfully',
-            'we well calling you in the email',
-            'success',
-          )
-          setname("")
-          setemail("")
-          setmessage("")
-    }, (error) => {
-      Swal.fire({
-        icon: 'error',
-        title: 'Oops...',
-        text: 'Something went wrong!'
-      })
-    })
+      .then((result) => {
+        Swal.fire(
+          'Email sent successfully',
+          'we well calling you in the email',
+          'success',
+        );
+        // Manually reset each field value
+        document.getElementById('user_name').value = "";
+        document.getElementById('email').value = "";
+        document.getElementById('user-project').value = "";
+        // Additionally, reset state values to ensure consistency
+        setname("");
+        setemail("");
+        setmessage("");
+      }, (error) => {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Something went wrong!'
+        });
+      });
+  } else {
+    Swal.fire({
+      icon: 'warning',
+      title: 'Missing Information',
+      text: 'Please fill out all fields before sending.'
+    });
+  }
 }
 
 
@@ -57,14 +66,14 @@ const sendEmail = (e) => {
         <form ref={form} onSubmit={sendEmail}>
           <div className="inputFaild">
             <input  type="text" name="user_name" id="user_name" placeholder='enter your name' onChange={(ele) => {setname(ele.target.value)}} />
-            {name === "" ? <p style={{color: "red"}}>name is required.!</p> : null}
           </div>
           <div className="inputFaild">
             <input type="email" name="email" id="email" placeholder='enter your email' onChange={(ele) => {setemail(ele.target.value)}} />
-            {email === "" ? <p style={{color: "red"}}>email is required.!</p> : null}
           </div>
           <div className="inputFaild">
             <textarea type="text" name="user-project" id="user-project" rows={5} placeholder='type mesaage' onChange={(ele) => {setmessage(ele.target.value)}} />
+            {name === "" ? <p style={{color: "red"}}>name is required.!</p> : null }
+            {email === "" ? <p style={{color: "red"}}>email is required.!</p> : null}
             {message === "" ? <p style={{color: "red"}}>message is required.!</p> : null}
           </div>
           <button className='btnSentMail' value="Send">
