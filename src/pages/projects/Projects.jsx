@@ -1,5 +1,4 @@
 import "./projects.css";
-import edu from "../../assets/Projects/Asheducation.png";
 import bondi from "../../assets/Projects/bondi.png";
 import ecommerce from "../../assets/Projects/e-commerce.jpg";
 import customize from "../../assets/Projects/page customize.png";
@@ -12,6 +11,7 @@ import GithubRepos from "../../assets/Projects/Github-repos.png";
 import filterProject from "../../assets/Projects/filterProjects.jpg";
 import TEXT_TO_SPEAK from "../../assets/Projects/TEXT TO SPEAK.jpg";
 import todotasks from "../../assets/Projects/to do.jpg";
+import store from "../../assets/Projects/M&A store.jpeg";
 // sklls images
 import html from "../../assets/html.png";
 import css from "../../assets/css-3.png";
@@ -82,9 +82,6 @@ const Projects = () => {
             >
               backEnd wirking local only
             </p>
-            <p className="projectInfo" style={{ color: "red" }}>
-              We are still working on the creation and development
-            </p>
             <div className="projectTools">
               <img src={css} alt="" />
               <img src={sass} alt="" />
@@ -124,7 +121,7 @@ const Projects = () => {
 
         <div className="box">
           <div className="img">
-            <img src={managmentManagment} alt="" />
+            <img src={store} alt="" />
             <div className="linksContent">
               <a href="https://github.com/ashrafmo-1/crud-products-app">
                 <FaCode />
@@ -135,7 +132,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="boxContent">
-            <h3 className="projectName">product management</h3>
+            <h3 className="projectName">M&A store</h3>
             <p className="projectInfo">
               products management can user show, add, remove products
             </p>
@@ -152,7 +149,7 @@ const Projects = () => {
           <div className="img">
             <img src={calc} alt="" />
             <div className="linksContent">
-              <a href="https://github.com/ashrafmo-1/Calculator-react-Js">
+              <a href="https://github.com/ashrafmo-1/E-commerce_products-management_react.js">
                 <FaCode />
               </a>
               <a href="https://simple-calculator-11.web.app/">
@@ -299,10 +296,10 @@ const Projects = () => {
           <div className="img">
             <img src={TEXT_TO_SPEAK} alt="" />
             <div className="linksContent">
-              <a href="https://ashrafmo-1.github.io/text-to-speak/">
+              <a href="https://github.com/ashrafmo-1/text-to-speak">
                 <FaCode />
               </a>
-              <a href="https://github.com/ashrafmo-1/text-to-speak">
+              <a href="https://ashrafmo-1.github.io/text-to-speak/">
                 <FaRegEye />
               </a>
             </div>

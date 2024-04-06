@@ -11,7 +11,7 @@ const Navgation = () => {
         <span>AS</span>hraf mohamed
       </h1>
       <nav className="navgation">
-        <Link to={"home"} smooth={true} offset={-100} duration={400}>
+        <Link to={"#home"} smooth={true} offset={-100} duration={400}>
           Home
         </Link>
         <Link to={"aboute"} smooth={true} offset={-50} duration={400}>
