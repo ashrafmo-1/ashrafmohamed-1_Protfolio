@@ -2,37 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
-  --text_color: rgb(255, 255, 255);
-  --description_color: rgb(200, 200, 200);
-  --BGC: #0000ff; /* #0000FF */
-  --Secont_BGC: #000c66; /* ##000C66 */
-  --lines: #050a30; /* #050A30 */
+  --bgc: #11071f !important;
+  --second-color: #9241e4;
+  --text: #fff;
 }
+/* .light {
+    --bgc: rgb(106, 0, 255);
+    --second-color: hsl(270, 11%, 71%);
+    --text: #fff;
+  } */
 
-/* scroll bar  */
-&::-webkit-scrollbar {
-  width: 2px;
-}
-&::-webkit-scrollbar-thumb {
-  background: var(--BGC);
-  border-radius: 4px;
-}
-
-/* fady will type code here */
-
-/* fady end code */
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-
-body,
-html {
+body {
+  background-color: var(--bgc);
   scroll-behavior: smooth;
+  height: 100vh;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }

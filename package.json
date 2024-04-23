@@ -1,5 +1,5 @@
 {
-  "name": "front-end-tools",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.5.2",
-    "@fortawesome/free-solid-svg-icons": "^6.5.2",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "next": "14.1.4",
+    "@emailjs/browser": "^4.3.3",
+    "next": "14.2.2",
     "react": "^18",
     "react-dom": "^18",
-    "tailwind-merge": "^2.2.2",
-    "tailwindcss-animate": "^1.0.7"
+    "react-router-hash-link": "^2.4.3",
+    "react-simple-typewriter": "^5.0.1",
+    "sweetalert2": "^11.10.8"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.18",
-    "postcss": "^8.4.37",
+    "postcss": "^8",
     "tailwindcss": "^3.4.1"
   }
 }

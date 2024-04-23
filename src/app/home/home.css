@@ -1,0 +1,30 @@
+.landing {
+  .head-name {
+    span {
+      line-height: 97px;
+      letter-spacing: -0.5px;
+    }
+  }
+  .jopTitle {
+    letter-spacing: 0.34px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+  }
+}
+
+
+@media(max-width: 590px) {
+  .head-name > span {
+    font-size: 28px !important;
+  }
+  .jopTitle {
+    font-size: 44px !important;
+
+  }
+}
+@media(max-width: 420px) {
+  .head-name > span {
+    font-size: 20px !important;
+  }
+}

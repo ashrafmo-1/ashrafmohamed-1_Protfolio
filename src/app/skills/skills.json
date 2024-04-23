@@ -1,0 +1,80 @@
+{
+  "skills": [
+    {
+      "name": "HTML",
+      "image": "/public/assets/skills/html.png"
+    },
+    {
+      "name": "CSS",
+      "image": "/public/assets/skills/css-3.png"
+    },
+    {
+      "name": "SASS",
+      "image": "/public/assets/skills/sass.png"
+    },
+    {
+      "name": "Bootstrap",
+      "image": "/public/assets/skills/bootstrap.svg"
+    },
+    {
+      "name": "tailwind",
+      "image": "/public/assets/skills/tailwind-css.svg"
+    },
+    {
+      "name": "JavaScript",
+      "image": "/public/assets/skills/js.png"
+    },
+    {
+      "name": "api",
+      "image": "/public/assets/skills/api.png"
+    },
+    {
+      "name": "TypeScript",
+      "image": "/public/assets/skills/typescript.png"
+    },
+    {
+      "name": "React",
+      "image": "/public/assets/skills/science.png"
+    },
+    {
+      "name": "Vite",
+      "image": "/public/assets/skills/vite-seeklogo.com.svg"
+    },
+    {
+      "name": "Next.js",
+      "image": "/public/assets/skills/Rectangle 9.png"
+    },
+    {
+      "name": "Redux",
+      "image": "/public/assets/skills/icons8-redux-48.png"
+    },
+    {
+      "name": "Figma",
+      "image": "/public/assets/skills/figma.png"
+    },
+    {
+      "name": "Git",
+      "image": "/public/assets/skills/git.svg"
+    },
+    {
+      "name": "GitHub",
+      "image": "/public/assets/skills/github.svg"
+    },
+    {
+      "name": "CMD",
+      "image": "/public/assets/skills/terminal.svg"
+    },
+    {
+      "name": "Slack",
+      "image": "/public/assets/skills/slack.svg"
+    },
+    {
+      "name": "Notion",
+      "image": "/public/assets/skills/notion.svg"
+    },
+    {
+      "name": "linux",
+      "image": "/public/assets/skills/linux.svg"
+    }
+  ]
+}
