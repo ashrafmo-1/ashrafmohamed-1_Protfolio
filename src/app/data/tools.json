@@ -1,0 +1,34 @@
+[
+  {
+    "tools": {
+      "js": "",
+      "ts": "",
+      "json": "",
+      "state": "",
+      "php": ""
+    },
+    "pages": {
+      "section0": "buttons",
+      "section1": "icons",
+      "section2": "projects",
+      "section3": "colros",
+      "section4": "prtfolios",
+      "section5": "posts",
+      "section6": "workers",
+      "section7": "github repos and organaizations",
+      "section8": "main courses",
+      "section9": "sass course",
+      "section10": "js courses",
+      "section11": "python courses",
+      "section12": "cpp courses",
+      "section13": "cv",
+      "section14": "ai",
+      "section15": "problems web site",
+      "section16": "animation",
+      "section17": "tube chanal",
+      "section18": "fake apis",
+      "name_section1": "buttons sites"
+    }
+  }
+]
+
