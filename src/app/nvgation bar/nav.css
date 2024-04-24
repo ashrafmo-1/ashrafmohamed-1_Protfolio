@@ -55,7 +55,7 @@ header {
       position: absolute;
       background-color: var(--second-color);
       width: 100%;
-      height: 300px;
+      height: fit-content;
       left: 0;
       top: -340px;
       flex-direction: column;

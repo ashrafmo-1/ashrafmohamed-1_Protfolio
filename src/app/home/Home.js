@@ -30,12 +30,12 @@ const HomePage = () => {
           </span>
         </h1>
         <div className="socialMediaAndSomeLinks flex gap-3">
-          <a href=""><Image className=" bg-slate-200 p-2 rounded-md cursor-pointer" src={linkedIn} width={40} height={30}  alt="" /></a>
-          <a href=""><Image className=" bg-slate-200 p-2 rounded-md cursor-pointer" src={github} width={40} height={30}  alt="" /></a>
-          <a href=""><Image className=" bg-slate-200 p-2 rounded-md cursor-pointer" src={facebook} width={40} height={30}  alt="" /></a>
-          <a href=""><Image className=" bg-slate-200 p-2 rounded-md cursor-pointer" src={instagram} width={40} height={30}  alt="" /></a>
-          <a href=""><Image className=" bg-slate-200 p-2 rounded-md cursor-pointer" src={whatsapp} width={40} height={30}  alt="" /></a>
-          <a href=""><Image className=" bg-slate-200 p-2 rounded-md cursor-pointer" src={cv} width={40} height={30}  alt="" /></a>
+          <a target="_blank" href="https://www.linkedin.com/in/ashraf-mohamed-b931a7236/"><Image className=" bg-slate-200 p-2 rounded-md cursor-pointer" src={linkedIn} width={40} height={30}  alt="" /></a>
+          <a target="_blank" href="https://github.com/ashrafmo-1"><Image className=" bg-slate-200 p-2 rounded-md cursor-pointer" src={github} width={40} height={30}  alt="" /></a>
+          <a target="_blank" href="https://www.facebook.com/ASHRAFMoOoHAMED"><Image className=" bg-slate-200 p-2 rounded-md cursor-pointer" src={facebook} width={40} height={30}  alt="" /></a>
+          <a target="_blank" href="https://www.instagram.com/01_ash_/?hl=en"><Image className=" bg-slate-200 p-2 rounded-md cursor-pointer" src={instagram} width={40} height={30}  alt="" /></a>
+          <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B201007481557&text&type=phone_number&app_absent=0"><Image className=" bg-slate-200 p-2 rounded-md cursor-pointer" src={whatsapp} width={40} height={30}  alt="" /></a>
+          <a target="_blank" href="https://drive.google.com/file/d/1R8cWBNP6k0NhUfSPs1ZsuC2diVwa5pbl/view?usp=sharing"><Image className=" bg-slate-200 p-2 rounded-md cursor-pointer" src={cv} width={40} height={30}  alt="" /></a>
         </div>
         <button className="projects w-96 h-16 mt-5 border border-gray-50 rounded-md text-4xl">
           <a href="https://webapps-projects.vercel.app/" target="blank" style={{color: "var(--text)"}}>Project Gallery</a>
@@ -62,8 +62,3 @@ const HomePage = () => {
     </div>
   );
 };
-
-export default HomePage;
-/* <span className="head-jop underline capitalize" style={{color: "var(--text)"}}>
-/* social media links and cvlink */
-// </span>  */
