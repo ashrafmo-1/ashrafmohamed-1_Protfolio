@@ -33,7 +33,7 @@
       "image": "/public/assets/skills/typescript.png"
     },
     {
-      "name": "React",
+      "name": "ReactJs",
       "image": "/public/assets/skills/science.png"
     },
     {
@@ -41,8 +41,8 @@
       "image": "/public/assets/skills/vite-seeklogo.com.svg"
     },
     {
-      "name": "Next.js",
-      "image": "/public/assets/skills/Rectangle 9.png"
+      "name": "NextJs",
+      "image": "/public/assets/skills/nextjs.svg"
     },
     {
       "name": "Redux",
@@ -75,6 +75,10 @@
     {
       "name": "linux",
       "image": "/public/assets/skills/linux.svg"
+    },
+    {
+      "name": "postman",
+      "image": "/public/assets/skills/postman.png"
     }
   ]
 }
